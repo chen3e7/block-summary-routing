@@ -1,0 +1,40 @@
+[
+  {
+    "panel": "retrieval-8192",
+    "checkpoints": [
+      "e-neutral",
+      "l-zero-success",
+      "m-zero-s57"
+    ],
+    "method": "axis16_c32_k16",
+    "reference": "refine16",
+    "primary": true,
+    "endpoint": "worst_accuracy",
+    "delta": 0.03059895833333337,
+    "confidence_level": 0.975,
+    "lower": 0.02083333333333337,
+    "upper": 0.041015625,
+    "resamples": 10000,
+    "logical_examples": 512,
+    "fixed_checkpoints": 3
+  },
+  {
+    "panel": "retrieval-8192",
+    "checkpoints": [
+      "e-neutral",
+      "l-zero-success",
+      "m-zero-s57"
+    ],
+    "method": "axis16_c32_k16",
+    "reference": "boundary_refill16",
+    "primary": true,
+    "endpoint": "worst_accuracy",
+    "delta": 0.04947916666666674,
+    "confidence_level": 0.975,
+    "lower": 0.03841145833333337,
+    "upper": 0.06315104166666663,
+    "resamples": 10000,
+    "logical_examples": 512,
+    "fixed_checkpoints": 3
+  }
+]

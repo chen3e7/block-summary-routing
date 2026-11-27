@@ -1,0 +1,379 @@
+{
+  "passed": true,
+  "documents": 512,
+  "grid_variants": 8,
+  "fixed_checkpoints": [
+    "e-neutral",
+    "l-zero-success",
+    "m-zero-s57"
+  ],
+  "ag_primary": false,
+  "ag_confidence_level": 0.95,
+  "absolute": [
+    {
+      "router": "refine16",
+      "mean_accuracy": 0.2635904947916667,
+      "all_grid_correct": 0.17838541666666666,
+      "worst_grid_accuracy": 0.24479166666666666,
+      "word_nll": 4.395925998687744
+    },
+    {
+      "router": "boundary_refill16",
+      "mean_accuracy": 0.2801106770833333,
+      "all_grid_correct": 0.20833333333333334,
+      "worst_grid_accuracy": 0.2662760416666667,
+      "word_nll": 4.2639773686726885
+    },
+    {
+      "router": "axis16_c32_k16",
+      "mean_accuracy": 0.2744954427083333,
+      "all_grid_correct": 0.21484375,
+      "worst_grid_accuracy": 0.255859375,
+      "word_nll": 4.2869977951049805
+    },
+    {
+      "router": "fullscan16",
+      "mean_accuracy": 0.2733561197916667,
+      "all_grid_correct": 0.21158854166666666,
+      "worst_grid_accuracy": 0.2578125,
+      "word_nll": 4.291725476582845
+    }
+  ],
+  "per_checkpoint": [
+    {
+      "checkpoint": "e-neutral",
+      "router": "refine16",
+      "documents": 512,
+      "mean_accuracy": 0.257080078125,
+      "all_grid_correct": 0.1796875,
+      "worst_grid_accuracy": 0.24609375,
+      "word_nll": 4.407773017883301
+    },
+    {
+      "checkpoint": "e-neutral",
+      "router": "boundary_refill16",
+      "documents": 512,
+      "mean_accuracy": 0.2734375,
+      "all_grid_correct": 0.208984375,
+      "worst_grid_accuracy": 0.26171875,
+      "word_nll": 4.257444381713867
+    },
+    {
+      "checkpoint": "e-neutral",
+      "router": "axis16_c32_k16",
+      "documents": 512,
+      "mean_accuracy": 0.267333984375,
+      "all_grid_correct": 0.21484375,
+      "worst_grid_accuracy": 0.2578125,
+      "word_nll": 4.2831525802612305
+    },
+    {
+      "checkpoint": "e-neutral",
+      "router": "fullscan16",
+      "documents": 512,
+      "mean_accuracy": 0.265869140625,
+      "all_grid_correct": 0.20703125,
+      "worst_grid_accuracy": 0.259765625,
+      "word_nll": 4.284664630889893
+    },
+    {
+      "checkpoint": "l-zero-success",
+      "router": "refine16",
+      "documents": 512,
+      "mean_accuracy": 0.283447265625,
+      "all_grid_correct": 0.1875,
+      "worst_grid_accuracy": 0.263671875,
+      "word_nll": 4.354608058929443
+    },
+    {
+      "checkpoint": "l-zero-success",
+      "router": "boundary_refill16",
+      "documents": 512,
+      "mean_accuracy": 0.299072265625,
+      "all_grid_correct": 0.21484375,
+      "worst_grid_accuracy": 0.28515625,
+      "word_nll": 4.2328267097473145
+    },
+    {
+      "checkpoint": "l-zero-success",
+      "router": "axis16_c32_k16",
+      "documents": 512,
+      "mean_accuracy": 0.29296875,
+      "all_grid_correct": 0.21875,
+      "worst_grid_accuracy": 0.265625,
+      "word_nll": 4.249321937561035
+    },
+    {
+      "checkpoint": "l-zero-success",
+      "router": "fullscan16",
+      "documents": 512,
+      "mean_accuracy": 0.290771484375,
+      "all_grid_correct": 0.21484375,
+      "worst_grid_accuracy": 0.271484375,
+      "word_nll": 4.258433818817139
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "router": "refine16",
+      "documents": 512,
+      "mean_accuracy": 0.250244140625,
+      "all_grid_correct": 0.16796875,
+      "worst_grid_accuracy": 0.224609375,
+      "word_nll": 4.425396919250488
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "router": "boundary_refill16",
+      "documents": 512,
+      "mean_accuracy": 0.267822265625,
+      "all_grid_correct": 0.201171875,
+      "worst_grid_accuracy": 0.251953125,
+      "word_nll": 4.301661014556885
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "router": "axis16_c32_k16",
+      "documents": 512,
+      "mean_accuracy": 0.26318359375,
+      "all_grid_correct": 0.2109375,
+      "worst_grid_accuracy": 0.244140625,
+      "word_nll": 4.328518867492676
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "router": "fullscan16",
+      "documents": 512,
+      "mean_accuracy": 0.263427734375,
+      "all_grid_correct": 0.212890625,
+      "worst_grid_accuracy": 0.2421875,
+      "word_nll": 4.332077980041504
+    }
+  ],
+  "effects": [
+    {
+      "panel": "natural-grid",
+      "checkpoints": [
+        "e-neutral",
+        "l-zero-success",
+        "m-zero-s57"
+      ],
+      "method": "axis16_c32_k16",
+      "reference": "refine16",
+      "primary": false,
+      "endpoint": "all_variants_correct",
+      "delta": 0.03645833333333334,
+      "confidence_level": 0.95,
+      "lower": 0.022135416666666685,
+      "upper": 0.05143229166666666,
+      "resamples": 10000,
+      "logical_examples": 512,
+      "fixed_checkpoints": 3
+    },
+    {
+      "panel": "natural-grid",
+      "checkpoints": [
+        "e-neutral",
+        "l-zero-success",
+        "m-zero-s57"
+      ],
+      "method": "axis16_c32_k16",
+      "reference": "refine16",
+      "primary": false,
+      "endpoint": "mean_accuracy",
+      "delta": 0.01090494791666663,
+      "confidence_level": 0.95,
+      "lower": 0.00146484375,
+      "upper": 0.020751953124999972,
+      "resamples": 10000,
+      "logical_examples": 512,
+      "fixed_checkpoints": 3
+    },
+    {
+      "panel": "natural-grid",
+      "checkpoints": [
+        "e-neutral",
+        "l-zero-success",
+        "m-zero-s57"
+      ],
+      "method": "axis16_c32_k16",
+      "reference": "refine16",
+      "primary": false,
+      "endpoint": "mean_nll",
+      "delta": -0.10892820358276367,
+      "confidence_level": 0.95,
+      "lower": -0.16138570308685302,
+      "upper": -0.06262588500976562,
+      "resamples": 10000,
+      "logical_examples": 512,
+      "fixed_checkpoints": 3
+    },
+    {
+      "panel": "natural-grid",
+      "checkpoints": [
+        "e-neutral",
+        "l-zero-success",
+        "m-zero-s57"
+      ],
+      "method": "axis16_c32_k16",
+      "reference": "boundary_refill16",
+      "primary": false,
+      "endpoint": "all_variants_correct",
+      "delta": 0.006510416666666657,
+      "confidence_level": 0.95,
+      "lower": -0.001953125,
+      "upper": 0.014973958333333315,
+      "resamples": 10000,
+      "logical_examples": 512,
+      "fixed_checkpoints": 3
+    },
+    {
+      "panel": "natural-grid",
+      "checkpoints": [
+        "e-neutral",
+        "l-zero-success",
+        "m-zero-s57"
+      ],
+      "method": "axis16_c32_k16",
+      "reference": "boundary_refill16",
+      "primary": false,
+      "endpoint": "mean_accuracy",
+      "delta": -0.005615234375,
+      "confidence_level": 0.95,
+      "lower": -0.010172526041666685,
+      "upper": -0.0011393229166666852,
+      "resamples": 10000,
+      "logical_examples": 512,
+      "fixed_checkpoints": 3
+    },
+    {
+      "panel": "natural-grid",
+      "checkpoints": [
+        "e-neutral",
+        "l-zero-success",
+        "m-zero-s57"
+      ],
+      "method": "axis16_c32_k16",
+      "reference": "boundary_refill16",
+      "primary": false,
+      "endpoint": "mean_nll",
+      "delta": 0.023019790649414062,
+      "confidence_level": 0.95,
+      "lower": 0.010165023803710939,
+      "upper": 0.03555696010589599,
+      "resamples": 10000,
+      "logical_examples": 512,
+      "fixed_checkpoints": 3
+    }
+  ],
+  "ad_original_primary": [
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "boundary_refill16",
+      "panel": "grid",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.975,
+      "resamples": 10000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": -0.015625,
+      "mean_accuracy_delta": -0.0052490234375,
+      "all_variants_correct_delta": 0.005859375,
+      "mean_target_nll_delta": 0.020364083846573067,
+      "mean_example_worst_target_nll_delta": -0.06712102382152807,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0263671875,
+          0.001953125
+        ],
+        "mean_accuracy_delta": [
+          -0.0118408203125,
+          0.00146484375
+        ],
+        "all_variants_correct_delta": [
+          -0.005859375,
+          0.017578125
+        ],
+        "mean_target_nll_delta": [
+          0.004347981283868308,
+          0.0361655057801784
+        ],
+        "mean_example_worst_target_nll_delta": [
+          -0.08964359788697038,
+          -0.04532533904202858
+        ]
+      },
+      "primary_endpoint": "all_variants_correct_delta"
+    }
+  ],
+  "same_cohort_repeat_check": [
+    {
+      "checkpoint": "l-zero-success",
+      "router": "boundary_refill16",
+      "correctness_cells_changed": 21,
+      "all_grid_documents_changed": 1,
+      "mean_abs_nll_change": 0.032387398183345795
+    },
+    {
+      "checkpoint": "l-zero-success",
+      "router": "axis16_c32_k16",
+      "correctness_cells_changed": 24,
+      "all_grid_documents_changed": 0,
+      "mean_abs_nll_change": 0.03167307376861572
+    },
+    {
+      "checkpoint": "l-zero-success",
+      "router": "fullscan16",
+      "correctness_cells_changed": 20,
+      "all_grid_documents_changed": 2,
+      "mean_abs_nll_change": 0.028622262179851532
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "router": "boundary_refill16",
+      "correctness_cells_changed": 0,
+      "all_grid_documents_changed": 0,
+      "mean_abs_nll_change": 0.0
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "router": "axis16_c32_k16",
+      "correctness_cells_changed": 0,
+      "all_grid_documents_changed": 0,
+      "mean_abs_nll_change": 0.0
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "router": "fullscan16",
+      "correctness_cells_changed": 0,
+      "all_grid_documents_changed": 0,
+      "mean_abs_nll_change": 0.0
+    }
+  ],
+  "axis_boundary_paired_counts": [
+    {
+      "checkpoint": "e-neutral",
+      "documents": 512,
+      "axis_all_grid_wins": 4,
+      "boundary_all_grid_wins": 1,
+      "axis_correct_variant_wins": 40,
+      "boundary_correct_variant_wins": 65
+    },
+    {
+      "checkpoint": "l-zero-success",
+      "documents": 512,
+      "axis_all_grid_wins": 9,
+      "boundary_all_grid_wins": 7,
+      "axis_correct_variant_wins": 53,
+      "boundary_correct_variant_wins": 78
+    },
+    {
+      "checkpoint": "m-zero-s57",
+      "documents": 512,
+      "axis_all_grid_wins": 7,
+      "boundary_all_grid_wins": 2,
+      "axis_correct_variant_wins": 53,
+      "boundary_correct_variant_wins": 72
+    }
+  ],
+  "interpretation": "AG is a descriptive extension on existing AD documents, not a new independent confirmation; AD registered primary interval remains 97.5%."
+}

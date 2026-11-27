@@ -1,0 +1,2347 @@
+{
+  "state": "complete",
+  "complete_panels": 24,
+  "expected_panels": 24,
+  "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+  "rows": [
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "refine16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.259765625,
+        "mean_accuracy": 0.279541015625,
+        "gap": 0.037109375,
+        "all_variants_correct": 0.193359375,
+        "prediction_change_fraction": 0.41796875,
+        "mean_word_nll": 4.671639919281006,
+        "mean_example_worst_word_nll": 5.343940734863281,
+        "accuracy_by_variant": [
+          0.259765625,
+          0.279296875,
+          0.275390625,
+          0.279296875,
+          0.2734375,
+          0.28515625,
+          0.296875,
+          0.287109375
+        ],
+        "word_nll_by_variant": [
+          4.723170757293701,
+          4.64830207824707,
+          4.614051342010498,
+          4.605299949645996,
+          4.670119285583496,
+          4.718959331512451,
+          4.695023536682129,
+          4.698186874389648
+        ]
+      },
+      "seconds": 729.9653189731762,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "refine16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26171875,
+        "mean_accuracy": 0.2724609375,
+        "gap": 0.02734375,
+        "all_variants_correct": 0.20703125,
+        "prediction_change_fraction": 0.330078125,
+        "mean_word_nll": 4.324682235717773,
+        "mean_example_worst_word_nll": 4.939275741577148,
+        "accuracy_by_variant": [
+          0.265625,
+          0.26171875,
+          0.275390625,
+          0.2890625,
+          0.279296875,
+          0.263671875,
+          0.27734375,
+          0.267578125
+        ],
+        "word_nll_by_variant": [
+          4.28439998626709,
+          4.324167251586914,
+          4.331131458282471,
+          4.285175323486328,
+          4.330233097076416,
+          4.35384464263916,
+          4.327306270599365,
+          4.3612060546875
+        ]
+      },
+      "seconds": 734.6493852529675,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "refill16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26953125,
+        "mean_accuracy": 0.28515625,
+        "gap": 0.02734375,
+        "all_variants_correct": 0.208984375,
+        "prediction_change_fraction": 0.396484375,
+        "mean_word_nll": 4.630132675170898,
+        "mean_example_worst_word_nll": 5.240710735321045,
+        "accuracy_by_variant": [
+          0.26953125,
+          0.283203125,
+          0.275390625,
+          0.28515625,
+          0.28515625,
+          0.29296875,
+          0.29296875,
+          0.296875
+        ],
+        "word_nll_by_variant": [
+          4.697127819061279,
+          4.612689018249512,
+          4.582156658172607,
+          4.55690860748291,
+          4.615631103515625,
+          4.653392791748047,
+          4.670470237731934,
+          4.652679920196533
+        ]
+      },
+      "seconds": 847.3864206699654,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "refill16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.267578125,
+        "mean_accuracy": 0.279296875,
+        "gap": 0.029296875,
+        "all_variants_correct": 0.2109375,
+        "prediction_change_fraction": 0.3125,
+        "mean_word_nll": 4.29481315612793,
+        "mean_example_worst_word_nll": 4.880666732788086,
+        "accuracy_by_variant": [
+          0.26953125,
+          0.267578125,
+          0.271484375,
+          0.296875,
+          0.287109375,
+          0.287109375,
+          0.279296875,
+          0.275390625
+        ],
+        "word_nll_by_variant": [
+          4.255517482757568,
+          4.299355983734131,
+          4.315486431121826,
+          4.254883766174316,
+          4.301998615264893,
+          4.311180114746094,
+          4.297341346740723,
+          4.322737693786621
+        ]
+      },
+      "seconds": 860.0605256827548,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "uniform32_16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26171875,
+        "mean_accuracy": 0.272705078125,
+        "gap": 0.0234375,
+        "all_variants_correct": 0.21484375,
+        "prediction_change_fraction": 0.33984375,
+        "mean_word_nll": 4.75671911239624,
+        "mean_example_worst_word_nll": 5.312787055969238,
+        "accuracy_by_variant": [
+          0.26171875,
+          0.263671875,
+          0.265625,
+          0.283203125,
+          0.2734375,
+          0.271484375,
+          0.27734375,
+          0.28515625
+        ],
+        "word_nll_by_variant": [
+          4.841760158538818,
+          4.769663333892822,
+          4.704092025756836,
+          4.66336727142334,
+          4.724864959716797,
+          4.7881083488464355,
+          4.774871826171875,
+          4.787029266357422
+        ]
+      },
+      "seconds": 761.2877220995724,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "uniform32_16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.251953125,
+        "mean_accuracy": 0.266845703125,
+        "gap": 0.025390625,
+        "all_variants_correct": 0.208984375,
+        "prediction_change_fraction": 0.275390625,
+        "mean_word_nll": 4.44146728515625,
+        "mean_example_worst_word_nll": 4.9707722663879395,
+        "accuracy_by_variant": [
+          0.259765625,
+          0.251953125,
+          0.267578125,
+          0.2734375,
+          0.2734375,
+          0.263671875,
+          0.267578125,
+          0.27734375
+        ],
+        "word_nll_by_variant": [
+          4.428528308868408,
+          4.444140434265137,
+          4.452648162841797,
+          4.404602527618408,
+          4.426226615905762,
+          4.447899341583252,
+          4.44929838180542,
+          4.478389263153076
+        ]
+      },
+      "seconds": 769.4468964291736,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "relative4_16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26171875,
+        "mean_accuracy": 0.281005859375,
+        "gap": 0.033203125,
+        "all_variants_correct": 0.224609375,
+        "prediction_change_fraction": 0.306640625,
+        "mean_word_nll": 4.613778114318848,
+        "mean_example_worst_word_nll": 5.094352722167969,
+        "accuracy_by_variant": [
+          0.26171875,
+          0.27734375,
+          0.275390625,
+          0.2890625,
+          0.27734375,
+          0.28125,
+          0.291015625,
+          0.294921875
+        ],
+        "word_nll_by_variant": [
+          4.68961238861084,
+          4.630289077758789,
+          4.574476718902588,
+          4.5430145263671875,
+          4.586418151855469,
+          4.622101306915283,
+          4.622652053833008,
+          4.641656398773193
+        ]
+      },
+      "seconds": 825.5195608967915,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "relative4_16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.267578125,
+        "mean_accuracy": 0.27587890625,
+        "gap": 0.021484375,
+        "all_variants_correct": 0.228515625,
+        "prediction_change_fraction": 0.25,
+        "mean_word_nll": 4.266473770141602,
+        "mean_example_worst_word_nll": 4.707852363586426,
+        "accuracy_by_variant": [
+          0.2734375,
+          0.275390625,
+          0.267578125,
+          0.275390625,
+          0.2890625,
+          0.279296875,
+          0.275390625,
+          0.271484375
+        ],
+        "word_nll_by_variant": [
+          4.224985599517822,
+          4.256555080413818,
+          4.278297424316406,
+          4.2290143966674805,
+          4.2715630531311035,
+          4.286629676818848,
+          4.27645206451416,
+          4.308290004730225
+        ]
+      },
+      "seconds": 833.4979028240778,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "axis16_c32_k16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.267578125,
+        "mean_accuracy": 0.279541015625,
+        "gap": 0.025390625,
+        "all_variants_correct": 0.2265625,
+        "prediction_change_fraction": 0.310546875,
+        "mean_word_nll": 4.619907379150391,
+        "mean_example_worst_word_nll": 5.101467609405518,
+        "accuracy_by_variant": [
+          0.267578125,
+          0.275390625,
+          0.271484375,
+          0.287109375,
+          0.275390625,
+          0.279296875,
+          0.29296875,
+          0.287109375
+        ],
+        "word_nll_by_variant": [
+          4.69019079208374,
+          4.644452095031738,
+          4.5753655433654785,
+          4.549576759338379,
+          4.596592426300049,
+          4.631824493408203,
+          4.628147125244141,
+          4.643105506896973
+        ]
+      },
+      "seconds": 705.8754949592985,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "axis16_c32_k16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26171875,
+        "mean_accuracy": 0.2734375,
+        "gap": 0.021484375,
+        "all_variants_correct": 0.220703125,
+        "prediction_change_fraction": 0.24609375,
+        "mean_word_nll": 4.271974563598633,
+        "mean_example_worst_word_nll": 4.710880279541016,
+        "accuracy_by_variant": [
+          0.26953125,
+          0.271484375,
+          0.26171875,
+          0.283203125,
+          0.28125,
+          0.275390625,
+          0.275390625,
+          0.26953125
+        ],
+        "word_nll_by_variant": [
+          4.2313103675842285,
+          4.260313987731934,
+          4.28566312789917,
+          4.233705043792725,
+          4.27858829498291,
+          4.289867877960205,
+          4.2842698097229,
+          4.312080383300781
+        ]
+      },
+      "seconds": 711.4157009362243,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "fullscan16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.265625,
+        "mean_accuracy": 0.28125,
+        "gap": 0.02734375,
+        "all_variants_correct": 0.228515625,
+        "prediction_change_fraction": 0.310546875,
+        "mean_word_nll": 4.61691427230835,
+        "mean_example_worst_word_nll": 5.094062805175781,
+        "accuracy_by_variant": [
+          0.265625,
+          0.27734375,
+          0.275390625,
+          0.287109375,
+          0.27734375,
+          0.28125,
+          0.29296875,
+          0.29296875
+        ],
+        "word_nll_by_variant": [
+          4.689422607421875,
+          4.634279727935791,
+          4.5730671882629395,
+          4.548451900482178,
+          4.592736721038818,
+          4.627513408660889,
+          4.6249823570251465,
+          4.644852161407471
+        ]
+      },
+      "seconds": 644.4646429270506,
+      "peak_cuda_allocated_bytes": 3618291200,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "condition": "fullscan16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.267578125,
+        "mean_accuracy": 0.2744140625,
+        "gap": 0.013671875,
+        "all_variants_correct": 0.228515625,
+        "prediction_change_fraction": 0.234375,
+        "mean_word_nll": 4.2692365646362305,
+        "mean_example_worst_word_nll": 4.701241493225098,
+        "accuracy_by_variant": [
+          0.26953125,
+          0.26953125,
+          0.267578125,
+          0.28125,
+          0.279296875,
+          0.28125,
+          0.27734375,
+          0.26953125
+        ],
+        "word_nll_by_variant": [
+          4.22546911239624,
+          4.259153366088867,
+          4.280237197875977,
+          4.233696460723877,
+          4.274237632751465,
+          4.286436557769775,
+          4.28189754486084,
+          4.312759876251221
+        ]
+      },
+      "seconds": 657.4361144998111,
+      "peak_cuda_allocated_bytes": 3618385408,
+      "gpu": "NVIDIA A40",
+      "job_id": "225599",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "refine16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.265625,
+        "mean_accuracy": 0.27392578125,
+        "gap": 0.017578125,
+        "all_variants_correct": 0.201171875,
+        "prediction_change_fraction": 0.40234375,
+        "mean_word_nll": 4.6494855880737305,
+        "mean_example_worst_word_nll": 5.292361259460449,
+        "accuracy_by_variant": [
+          0.267578125,
+          0.265625,
+          0.27734375,
+          0.27734375,
+          0.267578125,
+          0.275390625,
+          0.27734375,
+          0.283203125
+        ],
+        "word_nll_by_variant": [
+          4.676856517791748,
+          4.667181015014648,
+          4.6458234786987305,
+          4.576312065124512,
+          4.657558441162109,
+          4.69806432723999,
+          4.651993751525879,
+          4.622090816497803
+        ]
+      },
+      "seconds": 458.05548692215234,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "refine16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.263671875,
+        "mean_accuracy": 0.27392578125,
+        "gap": 0.021484375,
+        "all_variants_correct": 0.2109375,
+        "prediction_change_fraction": 0.337890625,
+        "mean_word_nll": 4.1699299812316895,
+        "mean_example_worst_word_nll": 4.777593612670898,
+        "accuracy_by_variant": [
+          0.26953125,
+          0.28515625,
+          0.271484375,
+          0.263671875,
+          0.283203125,
+          0.283203125,
+          0.267578125,
+          0.267578125
+        ],
+        "word_nll_by_variant": [
+          4.145063400268555,
+          4.167039394378662,
+          4.177513599395752,
+          4.192461013793945,
+          4.184764862060547,
+          4.162463665008545,
+          4.1483025550842285,
+          4.181826591491699
+        ]
+      },
+      "seconds": 464.05742873391137,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "refill16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26171875,
+        "mean_accuracy": 0.27294921875,
+        "gap": 0.0234375,
+        "all_variants_correct": 0.212890625,
+        "prediction_change_fraction": 0.388671875,
+        "mean_word_nll": 4.613433837890625,
+        "mean_example_worst_word_nll": 5.194849014282227,
+        "accuracy_by_variant": [
+          0.263671875,
+          0.26171875,
+          0.28125,
+          0.28125,
+          0.28515625,
+          0.263671875,
+          0.267578125,
+          0.279296875
+        ],
+        "word_nll_by_variant": [
+          4.6551594734191895,
+          4.630863189697266,
+          4.6187825202941895,
+          4.534916877746582,
+          4.596081256866455,
+          4.656787872314453,
+          4.629318714141846,
+          4.585559368133545
+        ]
+      },
+      "seconds": 525.3700584610924,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "refill16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26953125,
+        "mean_accuracy": 0.279052734375,
+        "gap": 0.015625,
+        "all_variants_correct": 0.208984375,
+        "prediction_change_fraction": 0.33203125,
+        "mean_word_nll": 4.1262335777282715,
+        "mean_example_worst_word_nll": 4.6970930099487305,
+        "accuracy_by_variant": [
+          0.28125,
+          0.275390625,
+          0.283203125,
+          0.275390625,
+          0.283203125,
+          0.28515625,
+          0.279296875,
+          0.26953125
+        ],
+        "word_nll_by_variant": [
+          4.1059184074401855,
+          4.151732444763184,
+          4.145345687866211,
+          4.125519752502441,
+          4.117999076843262,
+          4.113041877746582,
+          4.104339599609375,
+          4.1459760665893555
+        ]
+      },
+      "seconds": 543.6886323480867,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "uniform32_16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.2578125,
+        "mean_accuracy": 0.267578125,
+        "gap": 0.017578125,
+        "all_variants_correct": 0.2109375,
+        "prediction_change_fraction": 0.337890625,
+        "mean_word_nll": 4.740955352783203,
+        "mean_example_worst_word_nll": 5.230170249938965,
+        "accuracy_by_variant": [
+          0.2578125,
+          0.267578125,
+          0.275390625,
+          0.271484375,
+          0.267578125,
+          0.265625,
+          0.263671875,
+          0.271484375
+        ],
+        "word_nll_by_variant": [
+          4.808237552642822,
+          4.746049880981445,
+          4.724989414215088,
+          4.663232803344727,
+          4.725229263305664,
+          4.783761501312256,
+          4.7396697998046875,
+          4.736469268798828
+        ]
+      },
+      "seconds": 482.49774687178433,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "uniform32_16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.263671875,
+        "mean_accuracy": 0.275390625,
+        "gap": 0.021484375,
+        "all_variants_correct": 0.20703125,
+        "prediction_change_fraction": 0.265625,
+        "mean_word_nll": 4.283463478088379,
+        "mean_example_worst_word_nll": 4.787901878356934,
+        "accuracy_by_variant": [
+          0.265625,
+          0.2734375,
+          0.275390625,
+          0.283203125,
+          0.28515625,
+          0.2734375,
+          0.283203125,
+          0.263671875
+        ],
+        "word_nll_by_variant": [
+          4.278100490570068,
+          4.301229953765869,
+          4.2910919189453125,
+          4.279945373535156,
+          4.283334255218506,
+          4.276371955871582,
+          4.270788669586182,
+          4.286848068237305
+        ]
+      },
+      "seconds": 484.5683081508614,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "relative4_16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.259765625,
+        "mean_accuracy": 0.2705078125,
+        "gap": 0.021484375,
+        "all_variants_correct": 0.22265625,
+        "prediction_change_fraction": 0.310546875,
+        "mean_word_nll": 4.613753318786621,
+        "mean_example_worst_word_nll": 5.046026706695557,
+        "accuracy_by_variant": [
+          0.259765625,
+          0.267578125,
+          0.27734375,
+          0.27734375,
+          0.28125,
+          0.26953125,
+          0.26171875,
+          0.26953125
+        ],
+        "word_nll_by_variant": [
+          4.669090270996094,
+          4.645077228546143,
+          4.605564594268799,
+          4.537100315093994,
+          4.58632755279541,
+          4.652212142944336,
+          4.625774383544922,
+          4.588882923126221
+        ]
+      },
+      "seconds": 536.0217614113353,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "relative4_16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.26171875,
+        "mean_accuracy": 0.272216796875,
+        "gap": 0.017578125,
+        "all_variants_correct": 0.220703125,
+        "prediction_change_fraction": 0.224609375,
+        "mean_word_nll": 4.121095180511475,
+        "mean_example_worst_word_nll": 4.54732608795166,
+        "accuracy_by_variant": [
+          0.275390625,
+          0.27734375,
+          0.26953125,
+          0.263671875,
+          0.27734375,
+          0.279296875,
+          0.2734375,
+          0.26171875
+        ],
+        "word_nll_by_variant": [
+          4.108970642089844,
+          4.133443355560303,
+          4.125004768371582,
+          4.113731384277344,
+          4.12289571762085,
+          4.1177144050598145,
+          4.117105007171631,
+          4.129887580871582
+        ]
+      },
+      "seconds": 512.0859300838783,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "axis16_c32_k16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.2578125,
+        "mean_accuracy": 0.266845703125,
+        "gap": 0.015625,
+        "all_variants_correct": 0.224609375,
+        "prediction_change_fraction": 0.328125,
+        "mean_word_nll": 4.616405487060547,
+        "mean_example_worst_word_nll": 5.045475006103516,
+        "accuracy_by_variant": [
+          0.2578125,
+          0.263671875,
+          0.271484375,
+          0.2734375,
+          0.26953125,
+          0.267578125,
+          0.263671875,
+          0.267578125
+        ],
+        "word_nll_by_variant": [
+          4.675189971923828,
+          4.648932933807373,
+          4.610494613647461,
+          4.536827087402344,
+          4.5921125411987305,
+          4.648166656494141,
+          4.625026226043701,
+          4.5945000648498535
+        ]
+      },
+      "seconds": 432.92147319065407,
+      "peak_cuda_allocated_bytes": 3618276864,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "axis16_c32_k16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.265625,
+        "mean_accuracy": 0.272705078125,
+        "gap": 0.01171875,
+        "all_variants_correct": 0.220703125,
+        "prediction_change_fraction": 0.240234375,
+        "mean_word_nll": 4.1230316162109375,
+        "mean_example_worst_word_nll": 4.552251815795898,
+        "accuracy_by_variant": [
+          0.271484375,
+          0.27734375,
+          0.267578125,
+          0.26953125,
+          0.27734375,
+          0.275390625,
+          0.27734375,
+          0.265625
+        ],
+        "word_nll_by_variant": [
+          4.109574317932129,
+          4.128716468811035,
+          4.1306376457214355,
+          4.1093926429748535,
+          4.127932071685791,
+          4.125952243804932,
+          4.117588996887207,
+          4.134454727172852
+        ]
+      },
+      "seconds": 451.5828038463369,
+      "peak_cuda_allocated_bytes": 3618371072,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "fullscan16",
+      "panel": "grid",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.259765625,
+        "mean_accuracy": 0.26806640625,
+        "gap": 0.017578125,
+        "all_variants_correct": 0.22265625,
+        "prediction_change_fraction": 0.328125,
+        "mean_word_nll": 4.615257263183594,
+        "mean_example_worst_word_nll": 5.04078483581543,
+        "accuracy_by_variant": [
+          0.259765625,
+          0.263671875,
+          0.271484375,
+          0.27734375,
+          0.26953125,
+          0.271484375,
+          0.26171875,
+          0.26953125
+        ],
+        "word_nll_by_variant": [
+          4.674465656280518,
+          4.648303508758545,
+          4.607444763183594,
+          4.536171913146973,
+          4.589868545532227,
+          4.647407054901123,
+          4.623693943023682,
+          4.594704627990723
+        ]
+      },
+      "seconds": 400.4220644556917,
+      "peak_cuda_allocated_bytes": 3618291200,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "297c78a52b921773014dc02a4a6bcf8f8c4cff58f907a4d4a45881cc11da2180",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "condition": "fullscan16",
+      "panel": "prefix",
+      "batch_size": 1,
+      "metrics": {
+        "examples": 512,
+        "worst_accuracy": 0.263671875,
+        "mean_accuracy": 0.271728515625,
+        "gap": 0.013671875,
+        "all_variants_correct": 0.22265625,
+        "prediction_change_fraction": 0.232421875,
+        "mean_word_nll": 4.126208782196045,
+        "mean_example_worst_word_nll": 4.546481609344482,
+        "accuracy_by_variant": [
+          0.275390625,
+          0.275390625,
+          0.267578125,
+          0.263671875,
+          0.27734375,
+          0.275390625,
+          0.2734375,
+          0.265625
+        ],
+        "word_nll_by_variant": [
+          4.109816551208496,
+          4.1311750411987305,
+          4.131036758422852,
+          4.11443567276001,
+          4.131746768951416,
+          4.128159999847412,
+          4.122037887573242,
+          4.14126443862915
+        ]
+      },
+      "seconds": 399.6087105521001,
+      "peak_cuda_allocated_bytes": 3618385408,
+      "gpu": "NVIDIA L40S",
+      "job_id": "225861",
+      "evaluation_role": "independent_natural_routing_controls",
+      "old_stage_final_sets_opened": false
+    }
+  ],
+  "aggregate_primary": [
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "refill16",
+      "panel": "grid",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.975,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": -0.0029296875,
+      "mean_accuracy_delta": -0.005859375,
+      "all_variants_correct_delta": 0.0146484375,
+      "mean_word_nll_delta": -0.0036269015688219497,
+      "mean_example_worst_word_nll_delta": -0.1443088011801592,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0126953125,
+          0.0087890625
+        ],
+        "mean_accuracy_delta": [
+          -0.012939453125,
+          0.0010986328125
+        ],
+        "all_variants_correct_delta": [
+          0.001953125,
+          0.0283203125
+        ],
+        "mean_word_nll_delta": [
+          -0.02866987808231265,
+          0.019889097455521195
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.18893735450747043,
+          -0.10350753445572992
+        ]
+      },
+      "primary_endpoint": "all_variants_correct_delta"
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "uniform32_16",
+      "panel": "grid",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.975,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": 0.0029296875,
+      "mean_accuracy_delta": 0.0030517578125,
+      "all_variants_correct_delta": 0.0126953125,
+      "mean_word_nll_delta": -0.13068100644045444,
+      "mean_example_worst_word_nll_delta": -0.19800782805032213,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.01171875,
+          0.019055175781249822
+        ],
+        "mean_accuracy_delta": [
+          -0.009339904785156243,
+          0.015625
+        ],
+        "all_variants_correct_delta": [
+          -0.0048828125,
+          0.030773925781249822
+        ],
+        "mean_word_nll_delta": [
+          -0.2005082532181106,
+          -0.06631236898621327
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.28383538243542716,
+          -0.11855717711100627
+        ]
+      },
+      "primary_endpoint": "all_variants_correct_delta"
+    }
+  ],
+  "aggregate_secondary": [
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "panel": "grid",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": 0.0,
+      "mean_accuracy_delta": -0.0035400390625,
+      "all_variants_correct_delta": 0.0283203125,
+      "mean_word_nll_delta": -0.04240642836828101,
+      "mean_example_worst_word_nll_delta": -0.24467994691804051,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0107421875,
+          0.0126953125
+        ],
+        "mean_accuracy_delta": [
+          -0.011962890625,
+          0.004638671875
+        ],
+        "all_variants_correct_delta": [
+          0.0146484375,
+          0.04296875
+        ],
+        "mean_word_nll_delta": [
+          -0.07376876329620356,
+          -0.011029646870110817
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.3025758605755072,
+          -0.1900826749987574
+        ]
+      }
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "relative4_16",
+      "panel": "grid",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": 0.001953125,
+      "mean_accuracy_delta": -0.0025634765625,
+      "all_variants_correct_delta": 0.001953125,
+      "mean_word_nll_delta": 0.004390547303188441,
+      "mean_example_worst_word_nll_delta": 0.0032812688987178262,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0048828125,
+          0.0078125
+        ],
+        "mean_accuracy_delta": [
+          -0.006103515625,
+          0.000732421875
+        ],
+        "all_variants_correct_delta": [
+          -0.00390625,
+          0.006860351562499645
+        ],
+        "mean_word_nll_delta": [
+          -0.006029209334561613,
+          0.013569862010035648
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.008098245637575018,
+          0.013852463923831238
+        ]
+      }
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "panel": "grid",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": 0.0,
+      "mean_accuracy_delta": -0.00146484375,
+      "all_variants_correct_delta": 0.0,
+      "mean_word_nll_delta": 0.002070589147649571,
+      "mean_example_worst_word_nll_delta": 0.0060469334457593504,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0048828125,
+          0.0048828125
+        ],
+        "mean_accuracy_delta": [
+          -0.00341796875,
+          0.0003662109375
+        ],
+        "all_variants_correct_delta": [
+          -0.0029296875,
+          0.0029296875
+        ],
+        "mean_word_nll_delta": [
+          -0.0027280535213463956,
+          0.006962555709519335
+        ],
+        "mean_example_worst_word_nll_delta": [
+          0.0005037993778387317,
+          0.0120060451142308
+        ]
+      }
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "panel": "prefix",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": 0.0009765625,
+      "mean_accuracy_delta": -0.0001220703125,
+      "all_variants_correct_delta": 0.01171875,
+      "mean_word_nll_delta": -0.04980291118036462,
+      "mean_example_worst_word_nll_delta": -0.2268686726101805,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.008813476562499895,
+          0.0146484375
+        ],
+        "mean_accuracy_delta": [
+          -0.0084228515625,
+          0.0089111328125
+        ],
+        "all_variants_correct_delta": [
+          -0.001953125,
+          0.0263671875
+        ],
+        "mean_word_nll_delta": [
+          -0.08456316432860334,
+          -0.015697157534722127
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.2787838648048591,
+          -0.17807125369854476
+        ]
+      }
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "refill16",
+      "panel": "prefix",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": -0.0048828125,
+      "mean_accuracy_delta": -0.006103515625,
+      "all_variants_correct_delta": 0.0107421875,
+      "mean_word_nll_delta": -0.013020371624250515,
+      "mean_example_worst_word_nll_delta": -0.1573134177860993,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0146484375,
+          0.0068359375
+        ],
+        "mean_accuracy_delta": [
+          -0.013427734375,
+          0.0015869140625
+        ],
+        "all_variants_correct_delta": [
+          -0.001953125,
+          0.0244140625
+        ],
+        "mean_word_nll_delta": [
+          -0.03854431525910157,
+          0.011556007852085402
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.19679106004207367,
+          -0.11990051264069737
+        ]
+      }
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "uniform32_16",
+      "panel": "prefix",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": 0.005859375,
+      "mean_accuracy_delta": 0.001953125,
+      "all_variants_correct_delta": 0.0126953125,
+      "mean_word_nll_delta": -0.1649622142123519,
+      "mean_example_worst_word_nll_delta": -0.2477708956225797,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0107421875,
+          0.0205078125
+        ],
+        "mean_accuracy_delta": [
+          -0.0103759765625,
+          0.014773559570312456
+        ],
+        "all_variants_correct_delta": [
+          -0.0048828125,
+          0.0302734375
+        ],
+        "mean_word_nll_delta": [
+          -0.2286593222648534,
+          -0.10472203804245774
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.32451389944039877,
+          -0.17473957973458037
+        ]
+      }
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "relative4_16",
+      "panel": "prefix",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": -0.0009765625,
+      "mean_accuracy_delta": -0.0009765625,
+      "all_variants_correct_delta": -0.00390625,
+      "mean_word_nll_delta": 0.003718797628437187,
+      "mean_example_worst_word_nll_delta": 0.0039770300454620156,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0078125,
+          0.005859375
+        ],
+        "mean_accuracy_delta": [
+          -0.0042724609375,
+          0.002197265625
+        ],
+        "all_variants_correct_delta": [
+          -0.0107421875,
+          0.0029296875
+        ],
+        "mean_word_nll_delta": [
+          -0.005861997402803353,
+          0.012801096885114284
+        ],
+        "mean_example_worst_word_nll_delta": [
+          -0.007098567088564775,
+          0.014555561758356811
+        ]
+      }
+    },
+    {
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "panel": "prefix",
+      "logical_examples": 512,
+      "model_blocks": 2,
+      "interval_level": 0.95,
+      "resamples": 5000,
+      "shared_document_resampling": true,
+      "worst_accuracy_delta": -0.001953125,
+      "mean_accuracy_delta": 0.0,
+      "all_variants_correct_delta": -0.0048828125,
+      "mean_word_nll_delta": -0.00021980869595950026,
+      "mean_example_worst_word_nll_delta": 0.007704760546403122,
+      "intervals": {
+        "worst_accuracy_delta": [
+          -0.0078125,
+          0.0048828125
+        ],
+        "mean_accuracy_delta": [
+          -0.00244140625,
+          0.0025634765625
+        ],
+        "all_variants_correct_delta": [
+          -0.01171875,
+          0.0009765625
+        ],
+        "mean_word_nll_delta": [
+          -0.00505015986630397,
+          0.004506881305180598
+        ],
+        "mean_example_worst_word_nll_delta": [
+          0.0017119232563800367,
+          0.013877822575159363
+        ]
+      }
+    }
+  ],
+  "per_model": [
+    {
+      "model": "l-zero-success",
+      "grid_control_contrasts": [
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refill16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.975,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.001953125,
+          "mean_accuracy_delta": -0.005615234375,
+          "all_variants_correct_delta": 0.017578125,
+          "mean_word_nll_delta": -0.01022541642367969,
+          "mean_example_worst_word_nll_delta": -0.13924343357939506,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.017578125,
+              0.012719726562499645
+            ],
+            "mean_accuracy_delta": [
+              -0.01513671875,
+              0.00341796875
+            ],
+            "all_variants_correct_delta": [
+              0.001953125,
+              0.03515625
+            ],
+            "mean_word_nll_delta": [
+              -0.03850717319762679,
+              0.018518323893332675
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.18747789078661298,
+              -0.09439089200168384
+            ]
+          },
+          "primary_endpoint": "all_variants_correct_delta"
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "uniform32_16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.975,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.005859375,
+          "mean_accuracy_delta": 0.0068359375,
+          "all_variants_correct_delta": 0.01171875,
+          "mean_word_nll_delta": -0.1368121364776016,
+          "mean_example_worst_word_nll_delta": -0.2113195928541245,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.013671875,
+              0.02734375
+            ],
+            "mean_accuracy_delta": [
+              -0.009765625,
+              0.024658203125
+            ],
+            "all_variants_correct_delta": [
+              -0.009765625,
+              0.033203125
+            ],
+            "mean_word_nll_delta": [
+              -0.21436029792293992,
+              -0.06553132104395165
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.3064548959934654,
+              -0.12315702016085205
+            ]
+          },
+          "primary_endpoint": "all_variants_correct_delta"
+        }
+      ],
+      "other_contrasts": [
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refine16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.0078125,
+          "mean_accuracy_delta": 0.0,
+          "all_variants_correct_delta": 0.033203125,
+          "mean_word_nll_delta": -0.05173266860538206,
+          "mean_example_worst_word_nll_delta": -0.2424733154111891,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.009765625,
+              0.0234375
+            ],
+            "mean_accuracy_delta": [
+              -0.010986328125,
+              0.010498046875
+            ],
+            "all_variants_correct_delta": [
+              0.015625,
+              0.052734375
+            ],
+            "mean_word_nll_delta": [
+              -0.08794620711314564,
+              -0.0160450658776995
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.3102765035580887,
+              -0.17959261131927634
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "relative4_16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.005859375,
+          "mean_accuracy_delta": -0.00146484375,
+          "all_variants_correct_delta": 0.001953125,
+          "mean_word_nll_delta": 0.006129156415966008,
+          "mean_example_worst_word_nll_delta": 0.007114545282092877,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.00390625,
+              0.01171875
+            ],
+            "mean_accuracy_delta": [
+              -0.005126953125,
+              0.002197265625
+            ],
+            "all_variants_correct_delta": [
+              -0.005859375,
+              0.009765625
+            ],
+            "mean_word_nll_delta": [
+              -0.004996039133538942,
+              0.017202772392364805
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.005709467471206148,
+              0.01990192194152769
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "fullscan16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.001953125,
+          "mean_accuracy_delta": -0.001708984375,
+          "all_variants_correct_delta": -0.001953125,
+          "mean_word_nll_delta": 0.0029928509601404585,
+          "mean_example_worst_word_nll_delta": 0.007404196738207247,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.005859375,
+              0.0078125
+            ],
+            "mean_accuracy_delta": [
+              -0.00439453125,
+              0.000732421875
+            ],
+            "all_variants_correct_delta": [
+              -0.005859375,
+              0.0
+            ],
+            "mean_word_nll_delta": [
+              -0.0030270105803055,
+              0.009252248746662415
+            ],
+            "mean_example_worst_word_nll_delta": [
+              0.0001890223125883526,
+              0.015247515265582472
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refine16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.0,
+          "mean_accuracy_delta": 0.0009765625,
+          "all_variants_correct_delta": 0.013671875,
+          "mean_word_nll_delta": -0.05270735409914096,
+          "mean_example_worst_word_nll_delta": -0.22839532370744564,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.013671875,
+              0.01953125
+            ],
+            "mean_accuracy_delta": [
+              -0.010986328125,
+              0.01318359375
+            ],
+            "all_variants_correct_delta": [
+              -0.00390625,
+              0.033203125
+            ],
+            "mean_word_nll_delta": [
+              -0.09000457202134556,
+              -0.01685943333732793
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.2851607710135795,
+              -0.17294616839740232
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refill16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.005859375,
+          "mean_accuracy_delta": -0.005859375,
+          "all_variants_correct_delta": 0.009765625,
+          "mean_word_nll_delta": -0.022838301222378732,
+          "mean_example_worst_word_nll_delta": -0.16978589592872595,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.01953125,
+              0.013671875
+            ],
+            "mean_accuracy_delta": [
+              -0.016845703125,
+              0.00439453125
+            ],
+            "all_variants_correct_delta": [
+              -0.009765625,
+              0.029296875
+            ],
+            "mean_word_nll_delta": [
+              -0.051519703104855805,
+              0.004532763569341094
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.21569532234207145,
+              -0.12688881448216308
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "uniform32_16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.009765625,
+          "mean_accuracy_delta": 0.006591796875,
+          "all_variants_correct_delta": 0.01171875,
+          "mean_word_nll_delta": -0.1694923315076835,
+          "mean_example_worst_word_nll_delta": -0.2598917626846742,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.01171875,
+              0.029296875
+            ],
+            "mean_accuracy_delta": [
+              -0.010498046875,
+              0.02392578125
+            ],
+            "all_variants_correct_delta": [
+              -0.01171875,
+              0.03515625
+            ],
+            "mean_word_nll_delta": [
+              -0.2389176200808336,
+              -0.10485098937404018
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.34255636888694874,
+              -0.18103647435591488
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "relative4_16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.005859375,
+          "mean_accuracy_delta": -0.00244140625,
+          "all_variants_correct_delta": -0.0078125,
+          "mean_word_nll_delta": 0.005501035766087625,
+          "mean_example_worst_word_nll_delta": 0.00302830614054983,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.013671875,
+              0.00390625
+            ],
+            "mean_accuracy_delta": [
+              -0.00634765625,
+              0.00146484375
+            ],
+            "all_variants_correct_delta": [
+              -0.01953125,
+              0.001953125
+            ],
+            "mean_word_nll_delta": [
+              -0.005596530084608275,
+              0.016038435939140068
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.010029862014835089,
+              0.016216690954297515
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "fullscan16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.005859375,
+          "mean_accuracy_delta": -0.0009765625,
+          "all_variants_correct_delta": -0.0078125,
+          "mean_word_nll_delta": 0.002737739818087448,
+          "mean_example_worst_word_nll_delta": 0.009639054551371373,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.013671875,
+              0.005859375
+            ],
+            "mean_accuracy_delta": [
+              -0.00439453125,
+              0.00244140625
+            ],
+            "all_variants_correct_delta": [
+              -0.01953125,
+              0.001953125
+            ],
+            "mean_word_nll_delta": [
+              -0.003231680047240103,
+              0.008574250432812389
+            ],
+            "mean_example_worst_word_nll_delta": [
+              0.00185373034091754,
+              0.01771536871456191
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "grid_control_contrasts": [
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refill16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.975,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.00390625,
+          "mean_accuracy_delta": -0.006103515625,
+          "all_variants_correct_delta": 0.01171875,
+          "mean_word_nll_delta": 0.0029716132860357902,
+          "mean_example_worst_word_nll_delta": -0.14937416878092336,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.015625,
+              0.013671875
+            ],
+            "mean_accuracy_delta": [
+              -0.014773559570312487,
+              0.002685546875
+            ],
+            "all_variants_correct_delta": [
+              -0.00390625,
+              0.029296875
+            ],
+            "mean_word_nll_delta": [
+              -0.023972920693785225,
+              0.029135501791429833
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.20208598230892674,
+              -0.10163842885049236
+            ]
+          },
+          "primary_endpoint": "all_variants_correct_delta"
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "uniform32_16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.975,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.0,
+          "mean_accuracy_delta": -0.000732421875,
+          "all_variants_correct_delta": 0.013671875,
+          "mean_word_nll_delta": -0.12454987640330728,
+          "mean_example_worst_word_nll_delta": -0.18469606324651977,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.01953125,
+              0.01953125
+            ],
+            "mean_accuracy_delta": [
+              -0.015869140625,
+              0.014404296875
+            ],
+            "all_variants_correct_delta": [
+              -0.009765625,
+              0.037109375
+            ],
+            "mean_word_nll_delta": [
+              -0.19689609037952777,
+              -0.05813770696442476
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.2720664253296491,
+              -0.1039685541652034
+            ]
+          },
+          "primary_endpoint": "all_variants_correct_delta"
+        }
+      ],
+      "other_contrasts": [
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refine16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.0078125,
+          "mean_accuracy_delta": -0.007080078125,
+          "all_variants_correct_delta": 0.0234375,
+          "mean_word_nll_delta": -0.033080188131179966,
+          "mean_example_worst_word_nll_delta": -0.24688657842489192,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.021484375,
+              0.009765625
+            ],
+            "mean_accuracy_delta": [
+              -0.017340087890624974,
+              0.00341796875
+            ],
+            "all_variants_correct_delta": [
+              0.005859375,
+              0.04296875
+            ],
+            "mean_word_nll_delta": [
+              -0.06729235616613209,
+              0.0007882505153759044
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.30835656141298384,
+              -0.18759076408914555
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "relative4_16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.001953125,
+          "mean_accuracy_delta": -0.003662109375,
+          "all_variants_correct_delta": 0.001953125,
+          "mean_word_nll_delta": 0.002651938190410874,
+          "mean_example_worst_word_nll_delta": -0.0005520074846572243,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.009765625,
+              0.0078125
+            ],
+            "mean_accuracy_delta": [
+              -0.009033203125,
+              0.001220703125
+            ],
+            "all_variants_correct_delta": [
+              -0.00390625,
+              0.0078125
+            ],
+            "mean_word_nll_delta": [
+              -0.011611594499890996,
+              0.01587656166832403
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.01661524505489069,
+              0.014817405033863895
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "fullscan16",
+          "panel": "grid",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.001953125,
+          "mean_accuracy_delta": -0.001220703125,
+          "all_variants_correct_delta": 0.001953125,
+          "mean_word_nll_delta": 0.0011483273351586831,
+          "mean_example_worst_word_nll_delta": 0.004689670153311454,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.0078125,
+              0.005859375
+            ],
+            "mean_accuracy_delta": [
+              -0.003662109375,
+              0.001220703125
+            ],
+            "all_variants_correct_delta": [
+              0.0,
+              0.005859375
+            ],
+            "mean_word_nll_delta": [
+              -0.004819703111672879,
+              0.007493945824489853
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.0026453515796674757,
+              0.012330334309262975
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refine16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.001953125,
+          "mean_accuracy_delta": -0.001220703125,
+          "all_variants_correct_delta": 0.009765625,
+          "mean_word_nll_delta": -0.04689846826158828,
+          "mean_example_worst_word_nll_delta": -0.22534202151291538,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.01171875,
+              0.017578125
+            ],
+            "mean_accuracy_delta": [
+              -0.01123046875,
+              0.00927734375
+            ],
+            "all_variants_correct_delta": [
+              -0.0078125,
+              0.02734375
+            ],
+            "mean_word_nll_delta": [
+              -0.08624107475470737,
+              -0.007705105974105232
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.2839815497813106,
+              -0.17056782727304384
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "refill16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": -0.00390625,
+          "mean_accuracy_delta": -0.00634765625,
+          "all_variants_correct_delta": 0.01171875,
+          "mean_word_nll_delta": -0.0032024420261222986,
+          "mean_example_worst_word_nll_delta": -0.14484093964347267,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.017578125,
+              0.009765625
+            ],
+            "mean_accuracy_delta": [
+              -0.015625,
+              0.0029296875
+            ],
+            "all_variants_correct_delta": [
+              -0.00390625,
+              0.02734375
+            ],
+            "mean_word_nll_delta": [
+              -0.03348255853470618,
+              0.02589700857914749
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.1899364004018025,
+              -0.10193984808338431
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "uniform32_16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.001953125,
+          "mean_accuracy_delta": -0.002685546875,
+          "all_variants_correct_delta": 0.013671875,
+          "mean_word_nll_delta": -0.16043209691702032,
+          "mean_example_worst_word_nll_delta": -0.23565002856048523,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.017578125,
+              0.021484375
+            ],
+            "mean_accuracy_delta": [
+              -0.017822265625,
+              0.012451171875
+            ],
+            "all_variants_correct_delta": [
+              -0.0078125,
+              0.03515625
+            ],
+            "mean_word_nll_delta": [
+              -0.22977629499282556,
+              -0.09721536101062615
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.3192235919083032,
+              -0.15975610434325074
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "relative4_16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.00390625,
+          "mean_accuracy_delta": 0.00048828125,
+          "all_variants_correct_delta": 0.0,
+          "mean_word_nll_delta": 0.001936559490786749,
+          "mean_example_worst_word_nll_delta": 0.004925753950374201,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.0078125,
+              0.013671875
+            ],
+            "mean_accuracy_delta": [
+              -0.00537109375,
+              0.005859375
+            ],
+            "all_variants_correct_delta": [
+              -0.0078125,
+              0.0078125
+            ],
+            "mean_word_nll_delta": [
+              -0.012784597123447837,
+              0.015542482897581063
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.012958024572071736,
+              0.020567059135828455
+            ]
+          }
+        },
+        {
+          "condition": "axis16_c32_k16",
+          "reference": "fullscan16",
+          "panel": "prefix",
+          "logical_examples": 512,
+          "model_blocks": 1,
+          "interval_level": 0.95,
+          "resamples": 5000,
+          "shared_document_resampling": true,
+          "worst_accuracy_delta": 0.001953125,
+          "mean_accuracy_delta": 0.0009765625,
+          "all_variants_correct_delta": -0.001953125,
+          "mean_word_nll_delta": -0.0031773572100064484,
+          "mean_example_worst_word_nll_delta": 0.005770466541434871,
+          "intervals": {
+            "worst_accuracy_delta": [
+              -0.0078125,
+              0.009765625
+            ],
+            "mean_accuracy_delta": [
+              -0.002685546875,
+              0.0048828125
+            ],
+            "all_variants_correct_delta": [
+              -0.009765625,
+              0.00390625
+            ],
+            "mean_word_nll_delta": [
+              -0.009081772705678759,
+              0.002910436495881175
+            ],
+            "mean_example_worst_word_nll_delta": [
+              -0.0020871765163064967,
+              0.014247234430513326
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "evaluation_role": "independent_natural_routing_controls",
+  "old_stage_final_sets_opened": false
+}

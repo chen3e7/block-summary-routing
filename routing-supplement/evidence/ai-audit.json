@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "job_id": "1739660",
+  "cells": 66,
+  "source_hash_checks": 283,
+  "checkpoint_hash_checks": 3,
+  "artifact_hash_checks": 135,
+  "generated_input_cases": 25,
+  "generated_logical_examples_per_case": 32,
+  "generated_sequence_variants": 6400,
+  "paired_geometry_checks": 22,
+  "training_steps": 0,
+  "new_checkpoints": 0,
+  "diagnostic_not_confirmatory": true,
+  "conclusion": "Dense4800 solves seen distances, fails D63 across layouts/lengths; removing the added gap does not rescue it. Supports key-value-distance extrapolation failure, not an intrinsic dense-attention limit."
+}

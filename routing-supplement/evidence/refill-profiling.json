@@ -1,0 +1,902 @@
+[
+  {
+    "batch": 1,
+    "kind": "refine16",
+    "stage": "AH/refine16/prepare",
+    "kernels_by_call": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 61.61871428571429,
+    "kernel_us_per_call": 4.059714285714286,
+    "kernels_per_call": 3.0,
+    "copy_us_per_call": 0.384,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 1,
+    "kind": "refine16",
+    "stage": "AH/refine16/summary_score",
+    "kernels_by_call": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 193.35285714285715,
+    "kernel_us_per_call": 25.696428571428577,
+    "kernels_per_call": 8.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 1,
+    "kind": "refine16",
+    "stage": "AH/refine16/coarse_candidates",
+    "kernels_by_call": [
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 624.6247142857143,
+    "kernel_us_per_call": 77.9485714285714,
+    "kernels_per_call": 51.0,
+    "copy_us_per_call": 1.0471428571428572,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 1,
+    "kind": "refine16",
+    "stage": "AH/refine16/raw_gather",
+    "kernels_by_call": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 78.34885714285714,
+    "kernel_us_per_call": 8.621428571428572,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 1,
+    "kind": "refine16",
+    "stage": "AH/refine16/fine_score",
+    "kernels_by_call": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 101.8202857142857,
+    "kernel_us_per_call": 11.93142857142857,
+    "kernels_per_call": 7.0,
+    "copy_us_per_call": 1.037857142857143,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 1,
+    "kind": "refine16",
+    "stage": "AH/refine16/final_topk",
+    "kernels_by_call": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 53.43942857142857,
+    "kernel_us_per_call": 11.702857142857143,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/prepare",
+    "kernels_by_call": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 62.99142857142857,
+    "kernel_us_per_call": 4.063714285714285,
+    "kernels_per_call": 3.0,
+    "copy_us_per_call": 0.3838571428571429,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/summary_score",
+    "kernels_by_call": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 202.84414285714288,
+    "kernel_us_per_call": 25.74514285714286,
+    "kernels_per_call": 8.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/coarse_candidates",
+    "kernels_by_call": [
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 612.2532857142858,
+    "kernel_us_per_call": 77.82571428571427,
+    "kernels_per_call": 51.0,
+    "copy_us_per_call": 1.0697142857142858,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/fill_history",
+    "kernels_by_call": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 162.653,
+    "kernel_us_per_call": 18.642571428571433,
+    "kernels_per_call": 13.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/fill_dedup",
+    "kernels_by_call": [
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 616.2635714285715,
+    "kernel_us_per_call": 113.41828571428569,
+    "kernels_per_call": 81.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/fill_sort_pack",
+    "kernels_by_call": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 142.14357142857142,
+    "kernel_us_per_call": 23.592999999999996,
+    "kernels_per_call": 11.0,
+    "copy_us_per_call": 2.061714285714286,
+    "copies_per_call": 2.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/raw_gather",
+    "kernels_by_call": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 73.15357142857144,
+    "kernel_us_per_call": 8.636000000000001,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/fine_score",
+    "kernels_by_call": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 104.00728571428571,
+    "kernel_us_per_call": 11.959,
+    "kernels_per_call": 7.0,
+    "copy_us_per_call": 1.024,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 1,
+    "kind": "refill16",
+    "stage": "AH/refill16/final_topk",
+    "kernels_by_call": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 55.96785714285714,
+    "kernel_us_per_call": 11.716571428571427,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 8,
+    "kind": "refine16",
+    "stage": "AH/refine16/prepare",
+    "kernels_by_call": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 63.65228571428572,
+    "kernel_us_per_call": 4.804714285714285,
+    "kernels_per_call": 3.0,
+    "copy_us_per_call": 0.3885714285714286,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 8,
+    "kind": "refine16",
+    "stage": "AH/refine16/summary_score",
+    "kernels_by_call": [
+      0,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 201.70671428571427,
+    "kernel_us_per_call": 216.7872857142857,
+    "kernels_per_call": 8.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 8,
+    "kind": "refine16",
+    "stage": "AH/refine16/coarse_candidates",
+    "kernels_by_call": [
+      0,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 648.7357142857143,
+    "kernel_us_per_call": 82.97999999999999,
+    "kernels_per_call": 51.0,
+    "copy_us_per_call": 1.33,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 8,
+    "kind": "refine16",
+    "stage": "AH/refine16/raw_gather",
+    "kernels_by_call": [
+      0,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 82.36414285714285,
+    "kernel_us_per_call": 10.697714285714286,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 8,
+    "kind": "refine16",
+    "stage": "AH/refine16/fine_score",
+    "kernels_by_call": [
+      1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 106.39328571428572,
+    "kernel_us_per_call": 14.372857142857145,
+    "kernels_per_call": 7.0,
+    "copy_us_per_call": 1.0465714285714287,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 8,
+    "kind": "refine16",
+    "stage": "AH/refine16/final_topk",
+    "kernels_by_call": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 57.340714285714284,
+    "kernel_us_per_call": 16.26085714285714,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/prepare",
+    "kernels_by_call": [
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 60.95114285714286,
+    "kernel_us_per_call": 4.777142857142857,
+    "kernels_per_call": 3.0,
+    "copy_us_per_call": 0.3931428571428571,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/summary_score",
+    "kernels_by_call": [
+      0,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 196.27714285714288,
+    "kernel_us_per_call": 217.86200000000002,
+    "kernels_per_call": 8.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/coarse_candidates",
+    "kernels_by_call": [
+      0,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51,
+      51
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 608.1408571428572,
+    "kernel_us_per_call": 82.80028571428569,
+    "kernels_per_call": 51.0,
+    "copy_us_per_call": 1.3257142857142858,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/fill_history",
+    "kernels_by_call": [
+      3,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": true,
+    "cpu_us_per_call": 160.0815714285714,
+    "kernel_us_per_call": 19.06757142857143,
+    "kernels_per_call": 13.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/fill_dedup",
+    "kernels_by_call": [
+      84,
+      84,
+      84,
+      84,
+      84,
+      84,
+      84,
+      84
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 634.6302857142857,
+    "kernel_us_per_call": 131.5534285714285,
+    "kernels_per_call": 84.0,
+    "copy_us_per_call": 2.6652857142857145,
+    "copies_per_call": 4.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/fill_sort_pack",
+    "kernels_by_call": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11,
+      11
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 139.74742857142857,
+    "kernel_us_per_call": 27.346,
+    "kernels_per_call": 11.0,
+    "copy_us_per_call": 2.1165714285714285,
+    "copies_per_call": 2.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/raw_gather",
+    "kernels_by_call": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 72.13757142857143,
+    "kernel_us_per_call": 10.610285714285714,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/fine_score",
+    "kernels_by_call": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 102.68014285714285,
+    "kernel_us_per_call": 14.341285714285716,
+    "kernels_per_call": 7.0,
+    "copy_us_per_call": 1.0558571428571428,
+    "copies_per_call": 1.0
+  },
+  {
+    "batch": 8,
+    "kind": "refill16",
+    "stage": "AH/refill16/final_topk",
+    "kernels_by_call": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "calls_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "first_call_incomplete": false,
+    "cpu_us_per_call": 56.594,
+    "kernel_us_per_call": 16.20157142857143,
+    "kernels_per_call": 4.0,
+    "copy_us_per_call": 0.0,
+    "copies_per_call": 0.0
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "timing_trials": 140,
+  "timing_cells": 28,
+  "artifact_hash_checks": 12,
+  "raw_traces": 4,
+  "source_hash_checks": 1704,
+  "profiler_correction": "B8 traces omit device events at start of call0; all traces use complete calls1..7. Original raw files retained.",
+  "gpu_selector_checks": 1008,
+  "fidelity_checks": 28,
+  "fidelity_threshold_failures": 7,
+  "joint_quality_timing_eligible": false
+}

@@ -1,0 +1,3833 @@
+{
+  "state": "complete",
+  "complete_conditions": 18,
+  "expected_conditions": 18,
+  "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+  "rows": [
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 2048,
+      "condition": "refine16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            7.972106903508802e-07,
+            7.599575293504301e-07,
+            4.470345258411612e-07,
+            6.407489157034263e-07,
+            7.823089087644064e-07,
+            6.705508721616127e-07,
+            7.227046685542859e-07,
+            6.929030336166875e-07
+          ],
+          "mean_nll": 6.891773930428613e-07,
+          "source_position_mean": [
+            887.5,
+            887.0,
+            887.0,
+            887.0,
+            886.5,
+            887.5,
+            888.0,
+            887.0
+          ],
+          "source_position_var": [
+            112875.75,
+            111980.0,
+            112287.0,
+            112840.0,
+            112141.75,
+            112141.75,
+            112516.0,
+            112504.0
+          ],
+          "seconds": 20.7235064660199
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9921875,
+            0.984375,
+            0.984375,
+            0.9765625,
+            0.953125,
+            0.96875,
+            0.9765625,
+            0.9453125
+          ],
+          "mean_accuracy": 0.97265625,
+          "worst_accuracy": 0.9453125,
+          "best_accuracy": 0.9921875,
+          "gap": 0.046875,
+          "all_phases_correct": 0.8984375,
+          "all_phase_prediction_agreement": 0.90625,
+          "mixed_correctness_rate": 0.09375,
+          "all_phase_failure_rate": 0.0078125,
+          "phase_nll": [
+            0.15456059579776954,
+            0.2667373677769257,
+            0.15549813336564694,
+            0.17055556430868524,
+            0.7765732420678049,
+            0.5503427325354919,
+            0.3548088305586931,
+            0.9585628713840686
+          ],
+          "mean_nll": 0.42345491722438555,
+          "source_position_mean": [
+            954.125,
+            953.5625,
+            953.875,
+            953.75,
+            954.0625,
+            954.125,
+            954.25,
+            954.3125
+          ],
+          "source_position_var": [
+            177937.484375,
+            177966.18359375,
+            177973.984375,
+            178280.4375,
+            178262.74609375,
+            178125.734375,
+            178115.9375,
+            177957.52734375
+          ],
+          "seconds": 165.82315683318302
+        }
+      ],
+      "seconds": 186.64455012511462,
+      "peak_cuda_allocated_bytes": 4591005184,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            7.82309601987663e-07,
+            7.972100877218224e-07,
+            4.768367469765167e-07,
+            6.929027454027903e-07,
+            7.227046654456615e-07,
+            6.481992826934402e-07,
+            6.705508082127665e-07,
+            7.376062658437377e-07
+          ],
+          "mean_nll": 6.910400255355498e-07,
+          "source_position_mean": [
+            887.5,
+            887.0,
+            887.0,
+            887.0,
+            886.5,
+            887.5,
+            888.0,
+            887.0
+          ],
+          "source_position_var": [
+            112875.75,
+            111980.0,
+            112287.0,
+            112840.0,
+            112141.75,
+            112141.75,
+            112516.0,
+            112504.0
+          ],
+          "seconds": 20.184537661261857
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.984375,
+            0.984375,
+            0.984375,
+            0.984375,
+            0.96875,
+            0.984375,
+            0.984375,
+            0.96875
+          ],
+          "mean_accuracy": 0.98046875,
+          "worst_accuracy": 0.96875,
+          "best_accuracy": 0.984375,
+          "gap": 0.015625,
+          "all_phases_correct": 0.9453125,
+          "all_phase_prediction_agreement": 0.953125,
+          "mixed_correctness_rate": 0.046875,
+          "all_phase_failure_rate": 0.0078125,
+          "phase_nll": [
+            0.18954511996131368,
+            0.27288831817541004,
+            0.175426514519966,
+            0.15966219018265254,
+            0.6148001037327937,
+            0.35394258005694457,
+            0.26710407344536397,
+            0.48675266682182644
+          ],
+          "mean_nll": 0.31501519586203386,
+          "source_position_mean": [
+            954.125,
+            953.5625,
+            953.875,
+            953.75,
+            954.0625,
+            954.125,
+            954.25,
+            954.3125
+          ],
+          "source_position_var": [
+            177937.484375,
+            177966.18359375,
+            177973.984375,
+            178280.4375,
+            178262.74609375,
+            178125.734375,
+            178115.9375,
+            177957.52734375
+          ],
+          "seconds": 161.50064813531935
+        }
+      ],
+      "seconds": 181.78325382899493,
+      "peak_cuda_allocated_bytes": 4579095040,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 2048,
+      "condition": "fullscan16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            8.493644312324022e-07,
+            7.97210137459814e-07,
+            4.991883786331641e-07,
+            6.780015624485713e-07,
+            7.599571758554191e-07,
+            6.705510089410893e-07,
+            6.780013337426283e-07,
+            7.07804133082135e-07
+          ],
+          "mean_nll": 7.050097701744029e-07,
+          "source_position_mean": [
+            887.5,
+            887.0,
+            887.0,
+            887.0,
+            886.5,
+            887.5,
+            888.0,
+            887.0
+          ],
+          "source_position_var": [
+            112875.75,
+            111980.0,
+            112287.0,
+            112840.0,
+            112141.75,
+            112141.75,
+            112516.0,
+            112504.0
+          ],
+          "seconds": 21.494770871009678
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.984375,
+            0.984375,
+            0.984375,
+            0.984375,
+            0.96875,
+            0.984375,
+            0.984375,
+            0.96875
+          ],
+          "mean_accuracy": 0.98046875,
+          "worst_accuracy": 0.96875,
+          "best_accuracy": 0.984375,
+          "gap": 0.015625,
+          "all_phases_correct": 0.9453125,
+          "all_phase_prediction_agreement": 0.953125,
+          "mixed_correctness_rate": 0.046875,
+          "all_phase_failure_rate": 0.0078125,
+          "phase_nll": [
+            0.15384018688654033,
+            0.25325285625524235,
+            0.1585603802776237,
+            0.1284451201315242,
+            0.5890370519037085,
+            0.3538026139165293,
+            0.2595820325828221,
+            0.4801108294023772
+          ],
+          "mean_nll": 0.2970788839195459,
+          "source_position_mean": [
+            954.125,
+            953.5625,
+            953.875,
+            953.75,
+            954.0625,
+            954.125,
+            954.25,
+            954.3125
+          ],
+          "source_position_var": [
+            177937.484375,
+            177966.18359375,
+            177973.984375,
+            178280.4375,
+            178262.74609375,
+            178125.734375,
+            178115.9375,
+            177957.52734375
+          ],
+          "seconds": 171.95660926168784
+        }
+      ],
+      "seconds": 193.54993864661083,
+      "peak_cuda_allocated_bytes": 4849119232,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 4096,
+      "condition": "refine16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.407489201443184e-07,
+            5.289908102668051e-07,
+            4.619355840063122e-07,
+            6.40748940572422e-07,
+            5.736941051104338e-07,
+            5.28990674819596e-07,
+            5.364412487551817e-07,
+            6.556498450827064e-07
+          ],
+          "mean_nll": 5.70900016094722e-07,
+          "source_position_mean": [
+            1703.5,
+            1703.0,
+            1703.0,
+            1703.0,
+            1702.5,
+            1703.5,
+            1704.0,
+            1703.0
+          ],
+          "source_position_var": [
+            889627.75,
+            888052.0,
+            888087.0,
+            889616.0,
+            887981.75,
+            887981.75,
+            889108.0,
+            889112.0
+          ],
+          "seconds": 46.41228706482798
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9765625,
+            0.9765625,
+            0.9765625,
+            0.984375,
+            0.984375,
+            0.953125,
+            0.953125,
+            0.9609375
+          ],
+          "mean_accuracy": 0.970703125,
+          "worst_accuracy": 0.953125,
+          "best_accuracy": 0.984375,
+          "gap": 0.03125,
+          "all_phases_correct": 0.90625,
+          "all_phase_prediction_agreement": 0.9140625,
+          "mixed_correctness_rate": 0.0859375,
+          "all_phase_failure_rate": 0.0078125,
+          "phase_nll": [
+            0.33864556449789784,
+            0.33494565385406627,
+            0.25008145269222,
+            0.09036488119714564,
+            0.2880198172641863,
+            0.5382226013573916,
+            0.5986789731552007,
+            0.523708471200574
+          ],
+          "mean_nll": 0.3703334269023353,
+          "source_position_mean": [
+            1910.6875,
+            1910.125,
+            1910.4375,
+            1910.3125,
+            1910.625,
+            1910.6875,
+            1910.8125,
+            1910.875
+          ],
+          "source_position_var": [
+            722967.77734375,
+            722372.734375,
+            722832.80859375,
+            723390.52734375,
+            723285.109375,
+            723296.65234375,
+            723672.83984375,
+            723192.984375
+          ],
+          "seconds": 371.58998405374587
+        }
+      ],
+      "seconds": 418.10345015488565,
+      "peak_cuda_allocated_bytes": 5413359104,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.109466625936477e-07,
+            5.587930562711563e-07,
+            4.76836751861498e-07,
+            6.481994128115787e-07,
+            6.1094690861907e-07,
+            5.662433766318031e-07,
+            5.364411883590492e-07,
+            6.854520395727093e-07
+          ],
+          "mean_nll": 5.86732424590064e-07,
+          "source_position_mean": [
+            1703.5,
+            1703.0,
+            1703.0,
+            1703.0,
+            1702.5,
+            1703.5,
+            1704.0,
+            1703.0
+          ],
+          "source_position_var": [
+            889627.75,
+            888052.0,
+            888087.0,
+            889616.0,
+            887981.75,
+            887981.75,
+            889108.0,
+            889112.0
+          ],
+          "seconds": 41.604987531900406
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.984375,
+            0.984375,
+            0.9765625,
+            0.9765625,
+            0.984375,
+            0.96875,
+            0.9765625,
+            0.984375
+          ],
+          "mean_accuracy": 0.9794921875,
+          "worst_accuracy": 0.96875,
+          "best_accuracy": 0.984375,
+          "gap": 0.015625,
+          "all_phases_correct": 0.953125,
+          "all_phase_prediction_agreement": 0.96875,
+          "mixed_correctness_rate": 0.03125,
+          "all_phase_failure_rate": 0.015625,
+          "phase_nll": [
+            0.11944154477164515,
+            0.28590764968016286,
+            0.16674446065411702,
+            0.09496400037963382,
+            0.2645737912645759,
+            0.2505759034831937,
+            0.291919356618669,
+            0.3041822179094311
+          ],
+          "mean_nll": 0.22228861559517857,
+          "source_position_mean": [
+            1910.6875,
+            1910.125,
+            1910.4375,
+            1910.3125,
+            1910.625,
+            1910.6875,
+            1910.8125,
+            1910.875
+          ],
+          "source_position_var": [
+            722967.77734375,
+            722372.734375,
+            722832.80859375,
+            723390.52734375,
+            723285.109375,
+            723296.65234375,
+            723672.83984375,
+            723192.984375
+          ],
+          "seconds": 332.886755598709
+        }
+      ],
+      "seconds": 374.96187723614275,
+      "peak_cuda_allocated_bytes": 5385527808,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 4096,
+      "condition": "fullscan16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            5.736939061584678e-07,
+            5.587930842487765e-07,
+            4.768367345420188e-07,
+            6.481994376805744e-07,
+            5.960457829523591e-07,
+            5.289906193084448e-07,
+            5.438917742850435e-07,
+            6.929026166169194e-07
+          ],
+          "mean_nll": 5.774192444740756e-07,
+          "source_position_mean": [
+            1703.5,
+            1703.0,
+            1703.0,
+            1703.0,
+            1702.5,
+            1703.5,
+            1704.0,
+            1703.0
+          ],
+          "source_position_var": [
+            889627.75,
+            888052.0,
+            888087.0,
+            889616.0,
+            887981.75,
+            887981.75,
+            889108.0,
+            889112.0
+          ],
+          "seconds": 44.29449041932821
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.984375,
+            0.984375,
+            0.9765625,
+            0.9765625,
+            0.984375,
+            0.96875,
+            0.984375,
+            0.984375
+          ],
+          "mean_accuracy": 0.98046875,
+          "worst_accuracy": 0.96875,
+          "best_accuracy": 0.984375,
+          "gap": 0.015625,
+          "all_phases_correct": 0.953125,
+          "all_phase_prediction_agreement": 0.9609375,
+          "mixed_correctness_rate": 0.0390625,
+          "all_phase_failure_rate": 0.0078125,
+          "phase_nll": [
+            0.08942779475753687,
+            0.27234154274447414,
+            0.15073164079747098,
+            0.0828139779007771,
+            0.2562569102268614,
+            0.22387563440420766,
+            0.2819125213574089,
+            0.26722653374449495
+          ],
+          "mean_nll": 0.203073319491654,
+          "source_position_mean": [
+            1910.6875,
+            1910.125,
+            1910.4375,
+            1910.3125,
+            1910.625,
+            1910.6875,
+            1910.8125,
+            1910.875
+          ],
+          "source_position_var": [
+            722967.77734375,
+            722372.734375,
+            722832.80859375,
+            723390.52734375,
+            723285.109375,
+            723296.65234375,
+            723672.83984375,
+            723192.984375
+          ],
+          "seconds": 354.47389770904556
+        }
+      ],
+      "seconds": 398.8646940649487,
+      "peak_cuda_allocated_bytes": 5649262592,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 8192,
+      "condition": "refine16",
+      "batch_size": 4,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.481994616613918e-07,
+            6.780017276497574e-07,
+            6.854520226973193e-07,
+            8.344627797640669e-07,
+            9.611216098548425e-07,
+            6.109467971526783e-07,
+            6.780015908702808e-07,
+            8.27011934489974e-07
+          ],
+          "mean_nll": 7.403997405175389e-07,
+          "source_position_mean": [
+            3338.0,
+            3337.5,
+            3337.5,
+            3337.5,
+            3337.0,
+            3338.0,
+            3338.5,
+            3337.5
+          ],
+          "source_position_var": [
+            5122452.0,
+            5119539.75,
+            5119035.75,
+            5122497.75,
+            5118983.0,
+            5118983.0,
+            5121607.75,
+            5121637.75
+          ],
+          "seconds": 115.69575503002852
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.96875,
+            0.96875,
+            0.9765625,
+            1.0,
+            0.9609375,
+            0.953125,
+            0.90625,
+            0.9453125
+          ],
+          "mean_accuracy": 0.9599609375,
+          "worst_accuracy": 0.90625,
+          "best_accuracy": 1.0,
+          "gap": 0.09375,
+          "all_phases_correct": 0.8671875,
+          "all_phase_prediction_agreement": 0.8671875,
+          "mixed_correctness_rate": 0.1328125,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.5216162878791021,
+            0.3554532759668859,
+            0.0858493024581734,
+            0.006306480421708116,
+            0.40356326307288415,
+            0.41442847515916964,
+            1.7799254974201084,
+            0.9237486157964216
+          ],
+          "mean_nll": 0.5613613997718065,
+          "source_position_mean": [
+            3824.625,
+            3824.0625,
+            3824.375,
+            3824.25,
+            3824.5625,
+            3824.625,
+            3824.75,
+            3824.8125
+          ],
+          "source_position_var": [
+            4235937.609375,
+            4234089.62109375,
+            4235453.359375,
+            4236515.4375,
+            4236234.68359375,
+            4236544.859375,
+            4237690.4375,
+            4236576.21484375
+          ],
+          "seconds": 925.323888160754
+        }
+      ],
+      "seconds": 1041.120206283871,
+      "peak_cuda_allocated_bytes": 5374323200,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "batch_size": 4,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.407489610005257e-07,
+            6.705510955384852e-07,
+            7.003531798943641e-07,
+            8.866162319876025e-07,
+            1.0877804252906742e-06,
+            6.258478997267503e-07,
+            7.003531887761483e-07,
+            7.227046592284125e-07
+          ],
+          "mean_nll": 7.543694551803704e-07,
+          "source_position_mean": [
+            3338.0,
+            3337.5,
+            3337.5,
+            3337.5,
+            3337.0,
+            3338.0,
+            3338.5,
+            3337.5
+          ],
+          "source_position_var": [
+            5122452.0,
+            5119539.75,
+            5119035.75,
+            5122497.75,
+            5118983.0,
+            5118983.0,
+            5121607.75,
+            5121637.75
+          ],
+          "seconds": 95.46672155102715
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9765625,
+            0.984375,
+            0.984375,
+            0.984375,
+            0.9765625,
+            0.9609375,
+            0.9453125,
+            0.9609375
+          ],
+          "mean_accuracy": 0.9716796875,
+          "worst_accuracy": 0.9453125,
+          "best_accuracy": 0.984375,
+          "gap": 0.0390625,
+          "all_phases_correct": 0.8984375,
+          "all_phase_prediction_agreement": 0.8984375,
+          "mixed_correctness_rate": 0.1015625,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.24652607228218454,
+            0.30269650806737136,
+            0.0800032783913387,
+            0.022825574624196154,
+            0.2701241716779039,
+            0.16255998051924758,
+            0.5981669847091013,
+            0.38631731161076405
+          ],
+          "mean_nll": 0.25865248523526346,
+          "source_position_mean": [
+            3824.625,
+            3824.0625,
+            3824.375,
+            3824.25,
+            3824.5625,
+            3824.625,
+            3824.75,
+            3824.8125
+          ],
+          "source_position_var": [
+            4235937.609375,
+            4234089.62109375,
+            4235453.359375,
+            4236515.4375,
+            4236234.68359375,
+            4236544.859375,
+            4237690.4375,
+            4236576.21484375
+          ],
+          "seconds": 764.0486918766983
+        }
+      ],
+      "seconds": 859.6154332603328,
+      "peak_cuda_allocated_bytes": 5383199232,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "l-zero-success",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-l-zero-success-refine16/last.pt",
+        "sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "bytes": 3008531642
+      },
+      "length": 8192,
+      "condition": "fullscan16",
+      "batch_size": 4,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.780017041130293e-07,
+            6.705510924298608e-07,
+            6.631004976220822e-07,
+            8.270120930298219e-07,
+            1.0058248522959445e-06,
+            6.183972693918349e-07,
+            6.780015753271584e-07,
+            7.152541368071752e-07
+          ],
+          "mean_nll": 7.320179026271134e-07,
+          "source_position_mean": [
+            3338.0,
+            3337.5,
+            3337.5,
+            3337.5,
+            3337.0,
+            3338.0,
+            3338.5,
+            3337.5
+          ],
+          "source_position_var": [
+            5122452.0,
+            5119539.75,
+            5119035.75,
+            5122497.75,
+            5118983.0,
+            5118983.0,
+            5121607.75,
+            5121637.75
+          ],
+          "seconds": 97.79902268806472
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9765625,
+            0.984375,
+            0.9921875,
+            0.9921875,
+            0.9765625,
+            0.9609375,
+            0.953125,
+            0.96875
+          ],
+          "mean_accuracy": 0.9755859375,
+          "worst_accuracy": 0.953125,
+          "best_accuracy": 0.9921875,
+          "gap": 0.0390625,
+          "all_phases_correct": 0.921875,
+          "all_phase_prediction_agreement": 0.921875,
+          "mixed_correctness_rate": 0.078125,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.23686034072218876,
+            0.3004535822263197,
+            0.0550710420460474,
+            0.011391877952166451,
+            0.26785591965463396,
+            0.1684374109727469,
+            0.571894786261584,
+            0.35472150364961186
+          ],
+          "mean_nll": 0.24583580793566234,
+          "source_position_mean": [
+            3824.625,
+            3824.0625,
+            3824.375,
+            3824.25,
+            3824.5625,
+            3824.625,
+            3824.75,
+            3824.8125
+          ],
+          "source_position_var": [
+            4235937.609375,
+            4234089.62109375,
+            4235453.359375,
+            4236515.4375,
+            4236234.68359375,
+            4236544.859375,
+            4237690.4375,
+            4236576.21484375
+          ],
+          "seconds": 781.8853509253822
+        }
+      ],
+      "seconds": 879.7852148399688,
+      "peak_cuda_allocated_bytes": 5387264000,
+      "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+      "job_id": "224581",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 2048,
+      "condition": "refine16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.631011930657849e-07,
+            5.066392172459189e-07,
+            5.289909439376572e-07,
+            4.768369374907877e-07,
+            5.811449157455684e-07,
+            9.387718948872248e-07,
+            6.705516648608523e-07,
+            7.078044870212352e-07
+          ],
+          "mean_nll": 6.342301567818787e-07,
+          "source_position_mean": [
+            887.5,
+            887.0,
+            887.0,
+            887.0,
+            886.5,
+            887.5,
+            888.0,
+            887.0
+          ],
+          "source_position_var": [
+            112875.75,
+            111980.0,
+            112287.0,
+            112840.0,
+            112141.75,
+            112141.75,
+            112516.0,
+            112504.0
+          ],
+          "seconds": 20.938367736060172
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9375,
+            0.96875,
+            0.9765625,
+            0.953125,
+            0.9375,
+            0.9453125,
+            0.9140625,
+            0.921875
+          ],
+          "mean_accuracy": 0.9443359375,
+          "worst_accuracy": 0.9140625,
+          "best_accuracy": 0.9765625,
+          "gap": 0.0625,
+          "all_phases_correct": 0.8828125,
+          "all_phase_prediction_agreement": 0.8828125,
+          "mixed_correctness_rate": 0.109375,
+          "all_phase_failure_rate": 0.0078125,
+          "phase_nll": [
+            0.8467105212811887,
+            0.1333155843832004,
+            0.23579953926246633,
+            0.2521198861158532,
+            0.5369660572221211,
+            0.47697664661122463,
+            1.0909872612946216,
+            0.6403813678822223
+          ],
+          "mean_nll": 0.526657108006612,
+          "source_position_mean": [
+            954.125,
+            953.5625,
+            953.875,
+            953.75,
+            954.0625,
+            954.125,
+            954.25,
+            954.3125
+          ],
+          "source_position_var": [
+            177937.484375,
+            177966.18359375,
+            177973.984375,
+            178280.4375,
+            178262.74609375,
+            178125.734375,
+            178115.9375,
+            177957.52734375
+          ],
+          "seconds": 167.59423858998343
+        }
+      ],
+      "seconds": 188.54381700698286,
+      "peak_cuda_allocated_bytes": 4591005184,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.18397730800524e-07,
+            5.06639213249116e-07,
+            5.066391861596742e-07,
+            4.991886544125634e-07,
+            6.332987987356375e-07,
+            9.164202845468594e-07,
+            6.929032343450103e-07,
+            7.15254974359425e-07
+          ],
+          "mean_nll": 6.360927595761012e-07,
+          "source_position_mean": [
+            887.5,
+            887.0,
+            887.0,
+            887.0,
+            886.5,
+            887.5,
+            888.0,
+            887.0
+          ],
+          "source_position_var": [
+            112875.75,
+            111980.0,
+            112287.0,
+            112840.0,
+            112141.75,
+            112141.75,
+            112516.0,
+            112504.0
+          ],
+          "seconds": 20.639755831100047
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9921875,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.984375,
+            0.96875,
+            0.984375
+          ],
+          "mean_accuracy": 0.9912109375,
+          "worst_accuracy": 0.96875,
+          "best_accuracy": 1.0,
+          "gap": 0.03125,
+          "all_phases_correct": 0.96875,
+          "all_phase_prediction_agreement": 0.96875,
+          "mixed_correctness_rate": 0.03125,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.007825910643535772,
+            5.668568684119579e-05,
+            4.572801162072704e-05,
+            7.202060219918538e-05,
+            0.0017528505818165674,
+            0.04924122361316341,
+            0.27092523494144627,
+            0.051785374397027184
+          ],
+          "mean_nll": 0.04771312855970629,
+          "source_position_mean": [
+            954.125,
+            953.5625,
+            953.875,
+            953.75,
+            954.0625,
+            954.125,
+            954.25,
+            954.3125
+          ],
+          "source_position_var": [
+            177937.484375,
+            177966.18359375,
+            177973.984375,
+            178280.4375,
+            178262.74609375,
+            178125.734375,
+            178115.9375,
+            177957.52734375
+          ],
+          "seconds": 165.14116322202608
+        }
+      ],
+      "seconds": 185.83762570470572,
+      "peak_cuda_allocated_bytes": 4579095040,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 2048,
+      "condition": "fullscan16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.183977236950966e-07,
+            5.438920687161897e-07,
+            5.28990915960037e-07,
+            4.917380755919964e-07,
+            6.556505121046996e-07,
+            1.0058269177548596e-06,
+            6.854526750643686e-07,
+            7.301561208983287e-07
+          ],
+          "mean_nll": 6.57513126223197e-07,
+          "source_position_mean": [
+            887.5,
+            887.0,
+            887.0,
+            887.0,
+            886.5,
+            887.5,
+            888.0,
+            887.0
+          ],
+          "source_position_var": [
+            112875.75,
+            111980.0,
+            112287.0,
+            112840.0,
+            112141.75,
+            112141.75,
+            112516.0,
+            112504.0
+          ],
+          "seconds": 21.440286945085973
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 2048,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9921875,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.984375,
+            0.96875,
+            0.9921875
+          ],
+          "mean_accuracy": 0.9921875,
+          "worst_accuracy": 0.96875,
+          "best_accuracy": 1.0,
+          "gap": 0.03125,
+          "all_phases_correct": 0.96875,
+          "all_phase_prediction_agreement": 0.96875,
+          "mixed_correctness_rate": 0.03125,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.00893672716390398,
+            9.730993027268209e-05,
+            5.7741172306224886e-05,
+            4.8279057449862606e-05,
+            0.003131742225107592,
+            0.052654001815780616,
+            0.25106066518338577,
+            0.02554888694431251
+          ],
+          "mean_nll": 0.042691919186564904,
+          "source_position_mean": [
+            954.125,
+            953.5625,
+            953.875,
+            953.75,
+            954.0625,
+            954.125,
+            954.25,
+            954.3125
+          ],
+          "source_position_var": [
+            177937.484375,
+            177966.18359375,
+            177973.984375,
+            178280.4375,
+            178262.74609375,
+            178125.734375,
+            178115.9375,
+            177957.52734375
+          ],
+          "seconds": 171.9578461041674
+        }
+      ],
+      "seconds": 193.41441700793803,
+      "peak_cuda_allocated_bytes": 4849119232,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 4096,
+      "condition": "refine16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.407494872462394e-07,
+            5.811449312886907e-07,
+            5.9604609159436e-07,
+            7.376069026676646e-07,
+            6.631012268165648e-07,
+            7.376068791309365e-07,
+            8.27013745929861e-07,
+            6.631011935098741e-07
+          ],
+          "mean_nll": 6.807963072730239e-07,
+          "source_position_mean": [
+            1703.5,
+            1703.0,
+            1703.0,
+            1703.0,
+            1702.5,
+            1703.5,
+            1704.0,
+            1703.0
+          ],
+          "source_position_var": [
+            889627.75,
+            888052.0,
+            888087.0,
+            889616.0,
+            887981.75,
+            887981.75,
+            889108.0,
+            889112.0
+          ],
+          "seconds": 45.10424964595586
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9453125,
+            0.984375,
+            0.9765625,
+            0.96875,
+            0.9609375,
+            0.953125,
+            0.921875,
+            0.9453125
+          ],
+          "mean_accuracy": 0.95703125,
+          "worst_accuracy": 0.921875,
+          "best_accuracy": 0.984375,
+          "gap": 0.0625,
+          "all_phases_correct": 0.875,
+          "all_phase_prediction_agreement": 0.875,
+          "mixed_correctness_rate": 0.125,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.36752612631328985,
+            0.07118974912835474,
+            0.09890170125442044,
+            0.21571803188968197,
+            0.31443797176237664,
+            0.4272091924042605,
+            0.8257433561711718,
+            0.36038705650184566
+          ],
+          "mean_nll": 0.33513914817817514,
+          "source_position_mean": [
+            1910.6875,
+            1910.125,
+            1910.4375,
+            1910.3125,
+            1910.625,
+            1910.6875,
+            1910.8125,
+            1910.875
+          ],
+          "source_position_var": [
+            722967.77734375,
+            722372.734375,
+            722832.80859375,
+            723390.52734375,
+            723285.109375,
+            723296.65234375,
+            723672.83984375,
+            723192.984375
+          ],
+          "seconds": 360.6621535620652
+        }
+      ],
+      "seconds": 405.78034750698134,
+      "peak_cuda_allocated_bytes": 5413359104,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.258483491450306e-07,
+            6.258483264964809e-07,
+            6.482000705076985e-07,
+            6.631011522095775e-07,
+            6.258483149501615e-07,
+            8.121125176785426e-07,
+            8.791676822106353e-07,
+            6.780023333874396e-07
+          ],
+          "mean_nll": 6.947660933231958e-07,
+          "source_position_mean": [
+            1703.5,
+            1703.0,
+            1703.0,
+            1703.0,
+            1702.5,
+            1703.5,
+            1704.0,
+            1703.0
+          ],
+          "source_position_var": [
+            889627.75,
+            888052.0,
+            888087.0,
+            889616.0,
+            887981.75,
+            887981.75,
+            889108.0,
+            889112.0
+          ],
+          "seconds": 41.906611810903996
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9921875,
+            0.984375,
+            1.0,
+            0.9921875,
+            0.9921875,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 0.9951171875,
+          "worst_accuracy": 0.984375,
+          "best_accuracy": 1.0,
+          "gap": 0.015625,
+          "all_phases_correct": 0.984375,
+          "all_phase_prediction_agreement": 0.984375,
+          "mixed_correctness_rate": 0.015625,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.02762557519963399,
+            0.037140865292895675,
+            1.424783788950279e-05,
+            0.019921897373033237,
+            0.015422968423195238,
+            0.005971589036800284,
+            0.000279140431229119,
+            1.2925060927260201e-05
+          ],
+          "mean_nll": 0.013298651081950538,
+          "source_position_mean": [
+            1910.6875,
+            1910.125,
+            1910.4375,
+            1910.3125,
+            1910.625,
+            1910.6875,
+            1910.8125,
+            1910.875
+          ],
+          "source_position_var": [
+            722967.77734375,
+            722372.734375,
+            722832.80859375,
+            723390.52734375,
+            723285.109375,
+            723296.65234375,
+            723672.83984375,
+            723192.984375
+          ],
+          "seconds": 334.89282751176506
+        }
+      ],
+      "seconds": 376.81031320896,
+      "peak_cuda_allocated_bytes": 5386510848,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 4096,
+      "condition": "fullscan16",
+      "batch_size": 8,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.109472088233758e-07,
+            5.960460467413498e-07,
+            6.25848358470904e-07,
+            6.556505751653674e-07,
+            6.407494583804407e-07,
+            8.046619703883096e-07,
+            8.121125865123702e-07,
+            7.00354032545647e-07
+          ],
+          "mean_nll": 6.807962796284706e-07,
+          "source_position_mean": [
+            1703.5,
+            1703.0,
+            1703.0,
+            1703.0,
+            1702.5,
+            1703.5,
+            1704.0,
+            1703.0
+          ],
+          "source_position_var": [
+            889627.75,
+            888052.0,
+            888087.0,
+            889616.0,
+            887981.75,
+            887981.75,
+            889108.0,
+            889112.0
+          ],
+          "seconds": 43.50788348307833
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 4096,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9921875,
+            0.9921875,
+            1.0,
+            0.9921875,
+            0.9921875,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 0.99609375,
+          "worst_accuracy": 0.9921875,
+          "best_accuracy": 1.0,
+          "gap": 0.0078125,
+          "all_phases_correct": 0.984375,
+          "all_phase_prediction_agreement": 0.984375,
+          "mixed_correctness_rate": 0.015625,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.035273818519547306,
+            0.03922550242207146,
+            8.131119068388593e-06,
+            0.0353663409857784,
+            0.0070913992989567465,
+            0.0008030400105760727,
+            0.00015009967980772476,
+            1.091412706455408e-05
+          ],
+          "mean_nll": 0.014741155770358831,
+          "source_position_mean": [
+            1910.6875,
+            1910.125,
+            1910.4375,
+            1910.3125,
+            1910.625,
+            1910.6875,
+            1910.8125,
+            1910.875
+          ],
+          "source_position_var": [
+            722967.77734375,
+            722372.734375,
+            722832.80859375,
+            723390.52734375,
+            723285.109375,
+            723296.65234375,
+            723672.83984375,
+            723192.984375
+          ],
+          "seconds": 348.26828726101667
+        }
+      ],
+      "seconds": 391.7864227402024,
+      "peak_cuda_allocated_bytes": 5649262592,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 8192,
+      "condition": "refine16",
+      "batch_size": 4,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            7.078045873853966e-07,
+            6.482000980412295e-07,
+            5.662438078424259e-07,
+            6.183978196183659e-07,
+            6.407495316551604e-07,
+            6.85452811399756e-07,
+            7.15255167094142e-07,
+            7.152551977362975e-07
+          ],
+          "mean_nll": 6.621698775965967e-07,
+          "source_position_mean": [
+            3338.0,
+            3337.5,
+            3337.5,
+            3337.5,
+            3337.0,
+            3338.0,
+            3338.5,
+            3337.5
+          ],
+          "source_position_var": [
+            5122452.0,
+            5119539.75,
+            5119035.75,
+            5122497.75,
+            5118983.0,
+            5118983.0,
+            5121607.75,
+            5121637.75
+          ],
+          "seconds": 112.41199195291847
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            0.9609375,
+            0.9921875,
+            0.984375,
+            0.9765625,
+            0.984375,
+            0.9609375,
+            0.9140625,
+            0.9375
+          ],
+          "mean_accuracy": 0.9638671875,
+          "worst_accuracy": 0.9140625,
+          "best_accuracy": 0.9921875,
+          "gap": 0.078125,
+          "all_phases_correct": 0.890625,
+          "all_phase_prediction_agreement": 0.890625,
+          "mixed_correctness_rate": 0.109375,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            0.24360487490297655,
+            0.022922621339501348,
+            0.12833446030798712,
+            0.22292482128779367,
+            0.13890726027037475,
+            0.34801853199284666,
+            0.6656389566865415,
+            0.3713504705886326
+          ],
+          "mean_nll": 0.2677127496720817,
+          "source_position_mean": [
+            3824.625,
+            3824.0625,
+            3824.375,
+            3824.25,
+            3824.5625,
+            3824.625,
+            3824.75,
+            3824.8125
+          ],
+          "source_position_var": [
+            4235937.609375,
+            4234089.62109375,
+            4235453.359375,
+            4236515.4375,
+            4236234.68359375,
+            4236544.859375,
+            4237690.4375,
+            4236576.21484375
+          ],
+          "seconds": 893.9353387258016
+        }
+      ],
+      "seconds": 1006.4703585780226,
+      "peak_cuda_allocated_bytes": 5374323200,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "batch_size": 4,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            7.525079177561622e-07,
+            6.780023640295951e-07,
+            6.332989128665645e-07,
+            6.705518047489534e-07,
+            7.152551919631378e-07,
+            7.599584446182917e-07,
+            7.376068236197852e-07,
+            7.82310279223708e-07
+          ],
+          "mean_nll": 7.161864673532747e-07,
+          "source_position_mean": [
+            3338.0,
+            3337.5,
+            3337.5,
+            3337.5,
+            3337.0,
+            3338.0,
+            3338.5,
+            3337.5
+          ],
+          "source_position_var": [
+            5122452.0,
+            5119539.75,
+            5119035.75,
+            5122497.75,
+            5118983.0,
+            5118983.0,
+            5121607.75,
+            5121637.75
+          ],
+          "seconds": 100.49938172195107
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9921875,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 0.9990234375,
+          "worst_accuracy": 0.9921875,
+          "best_accuracy": 1.0,
+          "gap": 0.0078125,
+          "all_phases_correct": 0.9921875,
+          "all_phase_prediction_agreement": 0.9921875,
+          "mixed_correctness_rate": 0.0078125,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            8.7216769177334e-06,
+            0.00013446879427508884,
+            5.785592286200458e-06,
+            0.00023176755048476272,
+            1.8156709249150804e-05,
+            0.016586584704481766,
+            0.004784168098184494,
+            0.0006187197627920415
+          ],
+          "mean_nll": 0.0027985466110839047,
+          "source_position_mean": [
+            3824.625,
+            3824.0625,
+            3824.375,
+            3824.25,
+            3824.5625,
+            3824.625,
+            3824.75,
+            3824.8125
+          ],
+          "source_position_var": [
+            4235937.609375,
+            4234089.62109375,
+            4235453.359375,
+            4236515.4375,
+            4236234.68359375,
+            4236544.859375,
+            4237690.4375,
+            4236576.21484375
+          ],
+          "seconds": 805.1963822650723
+        }
+      ],
+      "seconds": 905.7086529219523,
+      "peak_cuda_allocated_bytes": 5383199232,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    },
+    {
+      "status": "complete",
+      "manifest_sha256": "15fed36d5477070646fcc98938d050ade9a2805079cf5b8437304659c2a2f7d5",
+      "model": {
+        "label": "m-zero-s57",
+        "training_condition": "refine16",
+        "checkpoint": "checkpoints/r-train-m-zero-s57-refine16/last.pt",
+        "sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "bytes": 3008531642
+      },
+      "length": 8192,
+      "condition": "fullscan16",
+      "batch_size": 4,
+      "metrics": [
+        {
+          "task": "common31",
+          "examples": 16,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 31,
+          "task_revision": "2026-10-19-common-slots-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 1.0,
+          "worst_accuracy": 1.0,
+          "best_accuracy": 1.0,
+          "gap": 0.0,
+          "all_phases_correct": 1.0,
+          "all_phase_prediction_agreement": 1.0,
+          "mixed_correctness_rate": 0.0,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            7.525079106507349e-07,
+            6.929034968017334e-07,
+            6.109472030502161e-07,
+            6.780023720232009e-07,
+            7.078046047048758e-07,
+            7.674090323206428e-07,
+            7.45057393558568e-07,
+            7.674091309084474e-07
+          ],
+          "mean_nll": 7.152551430023024e-07,
+          "source_position_mean": [
+            3338.0,
+            3337.5,
+            3337.5,
+            3337.5,
+            3337.0,
+            3338.0,
+            3338.5,
+            3337.5
+          ],
+          "source_position_var": [
+            5122452.0,
+            5119539.75,
+            5119035.75,
+            5122497.75,
+            5118983.0,
+            5118983.0,
+            5121607.75,
+            5121637.75
+          ],
+          "seconds": 98.15704034175724
+        },
+        {
+          "task": "wide63",
+          "examples": 128,
+          "length": 8192,
+          "pairs": 16,
+          "distance": 63,
+          "task_revision": "2026-10-20-common-slots-63-v1",
+          "protocol": "independent",
+          "ood": false,
+          "split_seed": 474717,
+          "phase_accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9921875,
+            1.0,
+            1.0
+          ],
+          "mean_accuracy": 0.9990234375,
+          "worst_accuracy": 0.9921875,
+          "best_accuracy": 1.0,
+          "gap": 0.0078125,
+          "all_phases_correct": 0.9921875,
+          "all_phase_prediction_agreement": 0.9921875,
+          "mixed_correctness_rate": 0.0078125,
+          "all_phase_failure_rate": 0.0,
+          "phase_nll": [
+            6.25299993395334e-06,
+            0.0001225522933627765,
+            4.784713802497009e-06,
+            0.00011935697034987092,
+            1.5188750325911826e-05,
+            0.007325002231501121,
+            0.0013638059855978768,
+            5.728441654329064e-05
+          ],
+          "mean_nll": 0.0011267785451771622,
+          "source_position_mean": [
+            3824.625,
+            3824.0625,
+            3824.375,
+            3824.25,
+            3824.5625,
+            3824.625,
+            3824.75,
+            3824.8125
+          ],
+          "source_position_var": [
+            4235937.609375,
+            4234089.62109375,
+            4235453.359375,
+            4236515.4375,
+            4236234.68359375,
+            4236544.859375,
+            4237690.4375,
+            4236576.21484375
+          ],
+          "seconds": 785.0328651322052
+        }
+      ],
+      "seconds": 883.2034532376565,
+      "peak_cuda_allocated_bytes": 5387264000,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "job_id": "224587",
+      "evaluation_role": "fixed_method_length_transfer",
+      "old_stage_final_sets_opened": false
+    }
+  ],
+  "effects": [
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -1.583237713154162e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -6.146697740100349e-08,
+        1.5832478850175134e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.0234375,
+      "mean_delta": -0.0078125,
+      "nll_delta": 0.12637603330483965,
+      "worst_ci95": [
+        -0.046875,
+        0.0
+      ],
+      "nll_ci95": [
+        0.0458657704617995,
+        0.22147065208110706
+      ],
+      "prediction_agreement": 0.990234375,
+      "gap_delta": 0.03125,
+      "gap_ci95": [
+        0.0,
+        0.0546875
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 1.8626324926884763e-09,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -1.490116387781182e-08,
+        1.9557741491593728e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -1.3969744638853143e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -4.470321065264127e-08,
+        6.519261810944421e-09
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0234375,
+      "mean_delta": 0.0078125,
+      "nll_delta": -0.1084397213623517,
+      "worst_ci95": [
+        0.0,
+        0.046875
+      ],
+      "nll_ci95": [
+        -0.19423375574702612,
+        -0.03495907362569745
+      ],
+      "prediction_agreement": 0.990234375,
+      "gap_delta": -0.03125,
+      "gap_ci95": [
+        -0.0546875,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 0.01793631194248796,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        0.0033513853669963583,
+        0.03785041125553478
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 1.583237713154162e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -1.5832478850175134e-08,
+        6.146697740100349e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 2048,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0234375,
+      "mean_delta": 0.0078125,
+      "nll_delta": -0.12637603330483965,
+      "worst_ci95": [
+        0.0,
+        0.046875
+      ],
+      "nll_ci95": [
+        -0.22147065208110708,
+        -0.045865770461799536
+      ],
+      "prediction_agreement": 0.990234375,
+      "gap_delta": -0.03125,
+      "gap_ci95": [
+        -0.0546875,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -6.519228379353592e-09,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -2.2351683487409346e-08,
+        7.450581174239801e-09
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.015625,
+      "mean_delta": -0.009765625,
+      "nll_delta": 0.16726010741068129,
+      "worst_ci95": [
+        -0.046875,
+        0.0
+      ],
+      "nll_ci95": [
+        0.05665822355000157,
+        0.3090782416776336
+      ],
+      "prediction_agreement": 0.98828125,
+      "gap_delta": 0.015625,
+      "gap_ci95": [
+        -0.0078125,
+        0.0546875
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 1.5832408495342065e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -6.519256526282824e-09,
+        5.2153840982005484e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 9.313180115988473e-09,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -8.381893863707023e-09,
+        3.539011324549257e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.015625,
+      "mean_delta": 0.0087890625,
+      "nll_delta": -0.14804481130715672,
+      "worst_ci95": [
+        0.0,
+        0.046875
+      ],
+      "nll_ci95": [
+        -0.271203912151068,
+        -0.050845343379829246
+      ],
+      "prediction_agreement": 0.9892578125,
+      "gap_delta": -0.015625,
+      "gap_ci95": [
+        -0.0546875,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0,
+      "mean_delta": -0.0009765625,
+      "nll_delta": 0.01921529610352457,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        0.0013238306355511115,
+        0.04778972498541297
+      ],
+      "prediction_agreement": 0.9990234375,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        -0.0234375,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 6.519228379353592e-09,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -7.450581174239801e-09,
+        2.2351683487409346e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 4096,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.015625,
+      "mean_delta": 0.009765625,
+      "nll_delta": -0.16726010741068129,
+      "worst_ci95": [
+        0.0,
+        0.046875
+      ],
+      "nll_ci95": [
+        -0.30907824167763365,
+        -0.056658223550001635
+      ],
+      "prediction_agreement": 0.98828125,
+      "gap_delta": -0.015625,
+      "gap_ci95": [
+        -0.0546875,
+        0.0078125
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 8.381837890425459e-09,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -1.3969823356441147e-08,
+        3.3527404856570356e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.046875,
+      "mean_delta": -0.015625,
+      "nll_delta": 0.3155255918361442,
+      "worst_ci95": [
+        -0.078125,
+        -0.015625
+      ],
+      "nll_ci95": [
+        0.15737795229776677,
+        0.4957034334824903
+      ],
+      "prediction_agreement": 0.98046875,
+      "gap_delta": 0.0546875,
+      "gap_ci95": [
+        0.015625,
+        0.0859375
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 1.3969714662831478e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -6.542657951524865e-09,
+        3.911506271103704e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 2.2351552553256937e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -4.656604048192126e-09,
+        6.332935792718874e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0390625,
+      "mean_delta": 0.01171875,
+      "nll_delta": -0.3027089145365431,
+      "worst_ci95": [
+        0.0078125,
+        0.0703125
+      ],
+      "nll_ci95": [
+        -0.47658944382184326,
+        -0.15248628533412306
+      ],
+      "prediction_agreement": 0.982421875,
+      "gap_delta": -0.0546875,
+      "gap_ci95": [
+        -0.0859375,
+        -0.015625
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.0078125,
+      "mean_delta": -0.00390625,
+      "nll_delta": 0.01281667729960112,
+      "worst_ci95": [
+        -0.0234375,
+        0.0
+      ],
+      "nll_ci95": [
+        -0.0008595776950891014,
+        0.028919515471756384
+      ],
+      "prediction_agreement": 0.99609375,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        -0.015625,
+        0.0234375
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -8.381837890425459e-09,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -3.3527404856570356e-08,
+        1.3969823356441147e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "l-zero-success",
+      "length": 8192,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.046875,
+      "mean_delta": 0.015625,
+      "nll_delta": -0.3155255918361442,
+      "worst_ci95": [
+        0.015625,
+        0.078125
+      ],
+      "nll_ci95": [
+        -0.4957034334824903,
+        -0.1573779522977668
+      ],
+      "prediction_agreement": 0.98046875,
+      "gap_delta": -0.0546875,
+      "gap_ci95": [
+        -0.0859375,
+        -0.015625
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -2.3282969441318357e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -9.967450645687048e-08,
+        3.913881015116237e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.0546875,
+      "mean_delta": -0.0478515625,
+      "nll_delta": 0.48396518882004713,
+      "worst_ci95": [
+        -0.09375,
+        -0.0234375
+      ],
+      "nll_ci95": [
+        0.19939769832874407,
+        0.8303105340952864
+      ],
+      "prediction_agreement": 0.9501953125,
+      "gap_delta": 0.03125,
+      "gap_ci95": [
+        0.0,
+        0.078125
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 1.8626027942225676e-09,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -6.894094908976856e-08,
+        8.479665184468718e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -2.142036664709579e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -5.308522073865785e-08,
+        3.725293627743209e-09
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0546875,
+      "mean_delta": 0.046875,
+      "nll_delta": -0.47894397944690575,
+      "worst_ci95": [
+        0.0234375,
+        0.09375
+      ],
+      "nll_ci95": [
+        -0.8139328908141386,
+        -0.20096827059216035
+      ],
+      "prediction_agreement": 0.951171875,
+      "gap_delta": -0.03125,
+      "gap_ci95": [
+        -0.078125,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0,
+      "mean_delta": -0.0009765625,
+      "nll_delta": 0.0050212093731413845,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -0.012084273832554886,
+        0.026874454240560904
+      ],
+      "prediction_agreement": 0.9990234375,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 2.3282969441318357e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -3.9138810151162495e-08,
+        9.967450645687036e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 2048,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0546875,
+      "mean_delta": 0.0478515625,
+      "nll_delta": -0.48396518882004713,
+      "worst_ci95": [
+        0.0234375,
+        0.09375
+      ],
+      "nll_ci95": [
+        -0.8303105340952868,
+        -0.19939769832874416
+      ],
+      "prediction_agreement": 0.9501953125,
+      "gap_delta": -0.03125,
+      "gap_ci95": [
+        -0.078125,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 2.7644553313166398e-14,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -7.729961999519696e-08,
+        7.357442095290435e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.0703125,
+      "mean_delta": -0.0390625,
+      "nll_delta": 0.3203979924078163,
+      "worst_ci95": [
+        -0.109375,
+        -0.03125
+      ],
+      "nll_ci95": [
+        0.13672243088181557,
+        0.5332823952244379
+      ],
+      "prediction_agreement": 0.958984375,
+      "gap_delta": 0.0546875,
+      "gap_ci95": [
+        0.0234375,
+        0.09375
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 1.3969786050171962e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -6.519249545894335e-08,
+        9.965130437494807e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 1.3969813694725275e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -1.4724332864091122e-15,
+        3.1664903478445526e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0625,
+      "mean_delta": 0.0380859375,
+      "nll_delta": -0.3218404970962246,
+      "worst_ci95": [
+        0.03125,
+        0.10175781249999893
+      ],
+      "nll_ci95": [
+        -0.5330285295807945,
+        -0.13656114540195177
+      ],
+      "prediction_agreement": 0.9599609375,
+      "gap_delta": -0.046875,
+      "gap_ci95": [
+        -0.09375,
+        -0.015625
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.0078125,
+      "mean_delta": -0.0009765625,
+      "nll_delta": -0.0014425046884082929,
+      "worst_ci95": [
+        -0.015625,
+        0.0
+      ],
+      "nll_ci95": [
+        -0.010797051320530144,
+        0.0052172098503401815
+      ],
+      "prediction_agreement": 0.9990234375,
+      "gap_delta": 0.0078125,
+      "gap_ci95": [
+        0.0,
+        0.015625
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -2.7644553313166398e-14,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -7.357442095290435e-08,
+        7.729961999519696e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 4096,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0703125,
+      "mean_delta": 0.0390625,
+      "nll_delta": -0.3203979924078163,
+      "worst_ci95": [
+        0.03125,
+        0.109375
+      ],
+      "nll_ci95": [
+        -0.5332823952244383,
+        -0.1367224308818156
+      ],
+      "prediction_agreement": 0.958984375,
+      "gap_delta": -0.0546875,
+      "gap_ci95": [
+        -0.09375,
+        -0.0234375
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": -5.3085265405705684e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -1.3413344304297193e-07,
+        1.0244547216098354e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "refine16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": -0.078125,
+      "mean_delta": -0.03515625,
+      "nll_delta": 0.2665859711269045,
+      "worst_ci95": [
+        -0.125,
+        -0.03125
+      ],
+      "nll_ci95": [
+        0.10671802880739618,
+        0.4548036142079719
+      ],
+      "prediction_agreement": 0.96484375,
+      "gap_delta": 0.0703125,
+      "gap_ci95": [
+        0.03125,
+        0.1171875
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 5.4016589756678e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -5.587939315432333e-09,
+        1.285222353722415e-07
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 9.31324350972318e-10,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -1.2107161398433597e-08,
+        1.3038500955298016e-08
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.078125,
+      "mean_delta": 0.03515625,
+      "nll_delta": -0.2649142030609978,
+      "worst_ci95": [
+        0.03125,
+        0.125
+      ],
+      "nll_ci95": [
+        -0.452986082136683,
+        -0.10560261734677169
+      ],
+      "prediction_agreement": 0.96484375,
+      "gap_delta": -0.0703125,
+      "gap_ci95": [
+        -0.1171875,
+        -0.03125
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "axis16_c32_k16",
+      "reference": "fullscan16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 0.0016717680659067424,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -3.850551503522225e-06,
+        0.00501517819639004
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "common31",
+      "logical_examples": 16,
+      "worst_delta": 0.0,
+      "mean_delta": 0.0,
+      "nll_delta": 5.3085265405705684e-08,
+      "worst_ci95": [
+        0.0,
+        0.0
+      ],
+      "nll_ci95": [
+        -1.0244547216098354e-08,
+        1.341334430429718e-07
+      ],
+      "prediction_agreement": 1.0,
+      "gap_delta": 0.0,
+      "gap_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "m-zero-s57",
+      "length": 8192,
+      "condition": "fullscan16",
+      "reference": "refine16",
+      "task": "wide63",
+      "logical_examples": 128,
+      "worst_delta": 0.078125,
+      "mean_delta": 0.03515625,
+      "nll_delta": -0.2665859711269045,
+      "worst_ci95": [
+        0.03125,
+        0.125
+      ],
+      "nll_ci95": [
+        -0.45480361420797194,
+        -0.10671802880739631
+      ],
+      "prediction_agreement": 0.96484375,
+      "gap_delta": -0.0703125,
+      "gap_ci95": [
+        -0.1171875,
+        -0.03125
+      ]
+    }
+  ],
+  "primary_endpoints": [
+    {
+      "length": 4096,
+      "blocks": 2,
+      "logical_examples": 128,
+      "mean_block_worst_delta": 0.0390625,
+      "ci975": [
+        0.01953125,
+        0.0703125
+      ],
+      "bootstrap_repetitions": 10000,
+      "correction": "Two prespecified aggregate endpoints, Bonferroni 97.5% intervals",
+      "scope": "Conditional on these shared-teacher model blocks; shared logical IDs resampled together"
+    },
+    {
+      "length": 8192,
+      "blocks": 2,
+      "logical_examples": 128,
+      "mean_block_worst_delta": 0.05859375,
+      "ci975": [
+        0.0234375,
+        0.09765625
+      ],
+      "bootstrap_repetitions": 10000,
+      "correction": "Two prespecified aggregate endpoints, Bonferroni 97.5% intervals",
+      "scope": "Conditional on these shared-teacher model blocks; shared logical IDs resampled together"
+    }
+  ],
+  "missing": [],
+  "evaluation_role": "fixed_method_length_transfer",
+  "old_stage_final_sets_opened": false
+}

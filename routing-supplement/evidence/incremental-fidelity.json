@@ -1,0 +1,313 @@
+{
+  "checks": [
+    {
+      "kind": "refine16",
+      "shift": 0,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.3828125,
+      "rms_logit_error": 0.041492853313684464,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "refine16",
+      "shift": 0,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.25,
+      "rms_logit_error": 0.030689027160406113,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "refill16",
+      "shift": 0,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.125,
+      "rms_logit_error": 0.026303978636860847,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "refill16",
+      "shift": 0,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.025093477219343185,
+      "prediction_agreement": 0.9411764740943909,
+      "joint_quality_timing_eligible": false
+    },
+    {
+      "kind": "boundary_refill16",
+      "shift": 0,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.0302362609654665,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "boundary_refill16",
+      "shift": 0,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.21875,
+      "rms_logit_error": 0.0246691033244133,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "axis16_c32_k16",
+      "shift": 0,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.02851288951933384,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "axis16_c32_k16",
+      "shift": 0,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.28515625,
+      "rms_logit_error": 0.028941243886947632,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "fullscan16",
+      "shift": 0,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.025661805644631386,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "fullscan16",
+      "shift": 0,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.02663862518966198,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "uniform32_16",
+      "shift": 0,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.125,
+      "rms_logit_error": 0.02477671019732952,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "uniform32_16",
+      "shift": 0,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.25,
+      "rms_logit_error": 0.02460009790956974,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "relative4_16",
+      "shift": 0,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.796875,
+      "rms_logit_error": 0.03330196812748909,
+      "prediction_agreement": 0.9411764740943909,
+      "joint_quality_timing_eligible": false
+    },
+    {
+      "kind": "relative4_16",
+      "shift": 0,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.02804657071828842,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "refine16",
+      "shift": 7,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.02857804298400879,
+      "prediction_agreement": 0.9411764740943909,
+      "joint_quality_timing_eligible": false
+    },
+    {
+      "kind": "refine16",
+      "shift": 7,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.359375,
+      "rms_logit_error": 0.03111775405704975,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "refill16",
+      "shift": 7,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.21875,
+      "rms_logit_error": 0.03269350156188011,
+      "prediction_agreement": 0.9411764740943909,
+      "joint_quality_timing_eligible": false
+    },
+    {
+      "kind": "refill16",
+      "shift": 7,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.390625,
+      "rms_logit_error": 0.028516603633761406,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "boundary_refill16",
+      "shift": 7,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 1.15625,
+      "rms_logit_error": 0.07926881313323975,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": false
+    },
+    {
+      "kind": "boundary_refill16",
+      "shift": 7,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.02604839950799942,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "axis16_c32_k16",
+      "shift": 7,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.375,
+      "rms_logit_error": 0.031868841499090195,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "axis16_c32_k16",
+      "shift": 7,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.21875,
+      "rms_logit_error": 0.027328163385391235,
+      "prediction_agreement": 0.9411764740943909,
+      "joint_quality_timing_eligible": false
+    },
+    {
+      "kind": "fullscan16",
+      "shift": 7,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.125,
+      "rms_logit_error": 0.027469143271446228,
+      "prediction_agreement": 0.9411764740943909,
+      "joint_quality_timing_eligible": false
+    },
+    {
+      "kind": "fullscan16",
+      "shift": 7,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.19140625,
+      "rms_logit_error": 0.025168918073177338,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "uniform32_16",
+      "shift": 7,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.1875,
+      "rms_logit_error": 0.030753497034311295,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "uniform32_16",
+      "shift": 7,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.27734375,
+      "rms_logit_error": 0.03100546821951866,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "relative4_16",
+      "shift": 7,
+      "prompt": 63,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.125,
+      "rms_logit_error": 0.02647576294839382,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    },
+    {
+      "kind": "relative4_16",
+      "shift": 7,
+      "prompt": 2047,
+      "steps": 17,
+      "prefill_max_error": 0.0,
+      "max_logit_error": 0.4375,
+      "rms_logit_error": 0.031293656677007675,
+      "prediction_agreement": 1.0,
+      "joint_quality_timing_eligible": true
+    }
+  ],
+  "joint_quality_timing_eligible": false
+}
