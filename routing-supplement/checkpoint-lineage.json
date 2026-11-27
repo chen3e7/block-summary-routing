@@ -1,0 +1,300 @@
+{
+  "pins": {
+    "model_id": "Qwen/Qwen3-0.6B",
+    "model_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "dataset_id": "HuggingFaceFW/fineweb-edu",
+    "dataset_config": "sample-10BT",
+    "dataset_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+    "lambada_dataset": "EleutherAI/lambada_openai",
+    "lambada_revision": "900124bf3b8235c6daf21033af9948b3f07346c4",
+    "lambada_source_url": "https://huggingface.co/datasets/EleutherAI/lambada_openai",
+    "lambada_source_sha256": "4aa8d02cd17c719165fc8a7887fddd641f43fcafa4b1c806ca8abc31fabdb226"
+  },
+  "token_bank_sha256": "50551824b304ae0b66f859bafcf1c4467d4094264b9d39294d1db7b261fd3d3a",
+  "natural_stream_sha256": {
+    "train": "07eaefe29513ec465a176f6f7c4c70753fd045804d655f19b4f2ac9def5a1633",
+    "dev": "6d27c5e5124c2bea1aa3d7f86343daa893852d35ba08004f4382fcb23ad1197e",
+    "test": "6fcaca5617914fac61a96c5e2482266fb63447163c773461ea9fe9b8f78c3ded"
+  },
+  "branches": {
+    "E": {
+      "label": "e-neutral",
+      "initial": {
+        "seed": 54,
+        "output": "e-native-affine-relation-1200-s54",
+        "checkpoint_sha256": "b3d0d40115fd2670c1c08af62f1ee24e3fee5d742bf310fd858a74684ed527d5",
+        "command": [
+          "train.py",
+          "--name",
+          "e-native-affine-relation-1200-s54",
+          "--scale",
+          "qwen",
+          "--mode",
+          "layers",
+          "--gate-kind",
+          "shared_affine",
+          "--objective",
+          "mean",
+          "--seed",
+          "54",
+          "--steps",
+          "1200",
+          "--batch-size",
+          "4",
+          "--length",
+          "1024",
+          "--pairs",
+          "16",
+          "--schema",
+          "2",
+          "--distance",
+          "7",
+          "--distances",
+          "1",
+          "3",
+          "7",
+          "15",
+          "--lr",
+          "0.0001",
+          "--natural-every",
+          "4",
+          "--natural-weight",
+          "1",
+          "--trainable",
+          "all",
+          "--eval-every",
+          "400",
+          "--eval-examples",
+          "64",
+          "--save-checkpoint",
+          "--max-seconds",
+          "5000",
+          "--offset-shared"
+        ],
+        "gate": "learned shared affine offsets; reset before the local64 continuation"
+      },
+      "evaluation_batch_8k": 8,
+      "p": {
+        "output": "p-train-e-neutral-local64-span_aux1",
+        "seed": 71,
+        "learning_rate": 2e-05,
+        "steps": 1200,
+        "parent": "checkpoints/e-native-affine-relation-1200-s54/last.pt",
+        "parent_file_sha256": "b3d0d40115fd2670c1c08af62f1ee24e3fee5d742bf310fd858a74684ed527d5",
+        "checkpoint_sha256": "9490ba4577e225d5cf91f798498973a586d22aa70b1582b22bc58b504baa66c2",
+        "full_input_sha256": "016bc5fdfd318d0686a467862e5aa6358be7b16183257febc3ff0ee66c14f64c",
+        "model_tensor_sha256": "eeadde8d8b3439f85c72f9b4610866d6f7b7f6533f54cc99dbecc548af9c46d6",
+        "initial_model_tensor_sha256": "3c2fc5653da79fa592d6d309ac899598affe9b63370c18f4243517129f1c74aa",
+        "manifest_sha256": "96ef40f8a1385d0ee3f443a5d7562379addebb0ffad3791c6a30be4b21b32ec8",
+        "input_examples": {
+          "1": "05473429f0cf3a4325e4560b56c5782f66916e24864c4dea0b85c7fb8d6489c9",
+          "4": "a4346e55f16a6c5f859b944f1e506a5a3311ef9b86cea7e8ab3dde31ea6c1081",
+          "1200": "21b6215d248eac59b26c2568cd39e40434e42ebdef5cd9596e9473c412a518b9"
+        }
+      },
+      "q": {
+        "output": "q-train-e-neutral-refine16",
+        "seed": 81,
+        "learning_rate": 5e-06,
+        "steps": 1200,
+        "parent": "checkpoints/p-train-e-neutral-local64-span_aux1/last.pt",
+        "parent_file_sha256": "9490ba4577e225d5cf91f798498973a586d22aa70b1582b22bc58b504baa66c2",
+        "checkpoint_sha256": "73e98f83d8d9f5b2e9a10589e43fad6d04af81a6f0ca03a63c4b0e176983cfc4",
+        "full_input_sha256": "e3362da95684ec0eda51504016e7562c3ff97bf6e14898c22d19015c4bd87a6f",
+        "model_tensor_sha256": "323bc555959b0034bd54afcfc62d2b39c1d583982d005da968b65c7538c38825",
+        "initial_model_tensor_sha256": "eeadde8d8b3439f85c72f9b4610866d6f7b7f6533f54cc99dbecc548af9c46d6",
+        "manifest_sha256": "3ac77356577e85f023a96161280b565eef394bac59c271569e64715f32aa29a4",
+        "input_examples": {
+          "1": "f160ea2320616a03808495f4b7262285456f4b12cf5f58578d10efb62b7f9b87",
+          "4": "89cc86bd89d1ae3eb50eae4e908e182dcdf56306eb2bd79dffe8e776a126d8d0",
+          "1200": "6f16c23320722ab22391e76409b1df96cec2bf6bfc6555140de9ce9a13e4346a"
+        }
+      },
+      "r": {
+        "output": "r-train-e-neutral-refine16",
+        "seed": 91,
+        "learning_rate": 5e-06,
+        "steps": 1200,
+        "parent": "checkpoints/q-train-e-neutral-refine16/last.pt",
+        "parent_file_sha256": "73e98f83d8d9f5b2e9a10589e43fad6d04af81a6f0ca03a63c4b0e176983cfc4",
+        "checkpoint_sha256": "19010ba2d9fdcef7df408198a2e358af47470ebbd151abb3e15e8d4736e42fdd",
+        "full_input_sha256": "1797bd04481758ae54566bb415218ca6d71fcdeb63d64962e276d2832a3f3bd8",
+        "model_tensor_sha256": "b45ae8a909dc6291f12af8355eb9ad46f01982a04486415c4c5d91ea717e380f",
+        "initial_model_tensor_sha256": "323bc555959b0034bd54afcfc62d2b39c1d583982d005da968b65c7538c38825",
+        "manifest_sha256": "52b92f659d08a63986cd057233ea2e8463668964a016317b4ff99e3c8de89f42",
+        "input_examples": {
+          "1": "8fb0aea6c825634ce11921072d6ec7fc73a3776482961701b27b7cd19bba47f2",
+          "4": "fc69716ccb99a54d0e5999023946b6aee6a83101516d79fa2a1a84ae0c77df31",
+          "1200": "6128a9b0fa8b33a493583ab6fca2ae4cc1951aad5e8d75ab924b8abd8e7128fc"
+        }
+      }
+    },
+    "L": {
+      "label": "l-zero-success",
+      "initial": {
+        "seed": 55,
+        "output": "l-aux1-cos1200-s55",
+        "checkpoint_sha256": "e432906a8929b83b6fadaed3faf222fdf2eb3e0b3d984e4a7cb08c4fcbfd373f",
+        "manifest_sha256": "13c28c4bd98fd15796c317798064b108d789bf618001c11036f5ac714023254c",
+        "full_input_sha256": "d16f28c7f86c08e5f3c7950f2db5221ba098773456fb769c50ecbccab934c98d",
+        "gate": "centered offset scale and bias fixed at zero"
+      },
+      "evaluation_batch_8k": 8,
+      "p": {
+        "output": "p-train-l-zero-success-local64-span_aux1",
+        "seed": 72,
+        "learning_rate": 2e-05,
+        "steps": 1200,
+        "parent": "checkpoints/l-aux1-cos1200-s55/last.pt",
+        "parent_file_sha256": "e432906a8929b83b6fadaed3faf222fdf2eb3e0b3d984e4a7cb08c4fcbfd373f",
+        "checkpoint_sha256": "5066220c002607f0356117666dab20f19c2863279136e6688dcbb793c9a8b126",
+        "full_input_sha256": "381affc42d2c921a0904d830ce7337fa016d9e62f420d9f9f3b3397374a73a99",
+        "model_tensor_sha256": "e3acd84bcc6a7c3f50f3e70105c4a5f8f760003aa07a4fa4788151caecd11a4b",
+        "initial_model_tensor_sha256": "f07362f56d14f88379ac2d0207f10efcbce97147baf329c86d057efb8f0cb2ef",
+        "manifest_sha256": "96ef40f8a1385d0ee3f443a5d7562379addebb0ffad3791c6a30be4b21b32ec8",
+        "input_examples": {
+          "1": "a34ef210e9c924e83e35cb99bd8996b2e16cfd6f61854ed47444f2ebc4421ac8",
+          "4": "229fae32ec7b51df1be8600228fa8c5eb3d2303eadd5fe74708dd9519f2108db",
+          "1200": "e54917759b5494ee5c131aeaf2f55327de865a22b942c688525f6e696fab4602"
+        }
+      },
+      "q": {
+        "output": "q-train-l-zero-success-refine16",
+        "seed": 82,
+        "learning_rate": 5e-06,
+        "steps": 1200,
+        "parent": "checkpoints/p-train-l-zero-success-local64-span_aux1/last.pt",
+        "parent_file_sha256": "5066220c002607f0356117666dab20f19c2863279136e6688dcbb793c9a8b126",
+        "checkpoint_sha256": "f6c492d3c0974e832b4afbc047792d8139cc122c9d8fbc5d70efdaf1bec8c96f",
+        "full_input_sha256": "dfc509d1c2f08233860052dec355ede1162a56200f03ebccd4b985452a046f96",
+        "model_tensor_sha256": "ab079f053cb3e8c2767c71be9c3881679c2b08bc5fb31fa6994bced5c543174a",
+        "initial_model_tensor_sha256": "e3acd84bcc6a7c3f50f3e70105c4a5f8f760003aa07a4fa4788151caecd11a4b",
+        "manifest_sha256": "3ac77356577e85f023a96161280b565eef394bac59c271569e64715f32aa29a4",
+        "input_examples": {
+          "1": "2ee4ec4594f946da955098c516934f43c5fd3d37d66a2e6150db16f13bf2e7a5",
+          "4": "891b093ee35e99b4e07267e8acfe15fe34be4bde64ab79bfd043734654938d85",
+          "1200": "744b366e725ac4dce2e67153951eac38f09991ce823eada450e678cc120de275"
+        }
+      },
+      "r": {
+        "output": "r-train-l-zero-success-refine16",
+        "seed": 92,
+        "learning_rate": 5e-06,
+        "steps": 1200,
+        "parent": "checkpoints/q-train-l-zero-success-refine16/last.pt",
+        "parent_file_sha256": "f6c492d3c0974e832b4afbc047792d8139cc122c9d8fbc5d70efdaf1bec8c96f",
+        "checkpoint_sha256": "2e309f5dfce472175cc6264d13492de65d107a75f5a5929ae5d5f921a6aa75fc",
+        "full_input_sha256": "3ab805ea9c1215e1cf9d28c70e0b334efe3dda58e4b4fa7aa5049385839bf2b6",
+        "model_tensor_sha256": "7d610adb33f5cc32bde6ad933d71bdb9e07935d218f8944eea22203f76aec981",
+        "initial_model_tensor_sha256": "ab079f053cb3e8c2767c71be9c3881679c2b08bc5fb31fa6994bced5c543174a",
+        "manifest_sha256": "52b92f659d08a63986cd057233ea2e8463668964a016317b4ff99e3c8de89f42",
+        "input_examples": {
+          "1": "fb35d15bc41642b2d75628797555843f1ae4a8aa422f23a95b8c2f686ba14cf3",
+          "4": "e7d00b426b4c495cd46fe82c08c41654d9f7798a35c2266f06d7405b2b2d36ca",
+          "1200": "b61a5c8104b1bc1733f63e139c3a2665fb0cfb604e001a3686aeb6526d6a29f9"
+        }
+      }
+    },
+    "S57": {
+      "label": "m-zero-s57",
+      "initial": {
+        "seed": 57,
+        "output": "l-m-repl-aux1-cos1200-s57",
+        "checkpoint_sha256": "e69f56c293f4cfa57da9ec241faf1b01b4add5c63ca4d2b8887b212486fd1088",
+        "manifest_sha256": "2523a4e59cd2f6977bba391412328387cbd807b14a880f794a2dddbfa397fa21",
+        "full_input_sha256": "f336dd1bb3c4194f6bee87747dce96576b964958ba5f870fd0e2c969adb556e9",
+        "gate": "centered offset scale and bias fixed at zero"
+      },
+      "evaluation_batch_8k": 8,
+      "p": {
+        "output": "p-train-m-zero-s57-local64-span_aux1",
+        "seed": 73,
+        "learning_rate": 2e-05,
+        "steps": 1200,
+        "parent": "checkpoints/l-m-repl-aux1-cos1200-s57/last.pt",
+        "parent_file_sha256": "e69f56c293f4cfa57da9ec241faf1b01b4add5c63ca4d2b8887b212486fd1088",
+        "checkpoint_sha256": "aa6bfd8075f21521b21738efe8a0efc3ed430415daf2db79150e67c2ceba1bf9",
+        "full_input_sha256": "5e38e80d12ad9bba5427becb37d8ef1b489a00583f8c26dc67f7bdb7168dcd6d",
+        "model_tensor_sha256": "519a2ca10c9c229cccc0c54f047ba9faf48907d3cdc8a453cce60ac93a7d6e45",
+        "initial_model_tensor_sha256": "23b01c410f1410eecf1f6a6466b96301373c7efaaa03a97ad480e170787b87f8",
+        "manifest_sha256": "96ef40f8a1385d0ee3f443a5d7562379addebb0ffad3791c6a30be4b21b32ec8",
+        "input_examples": {
+          "1": "14efcfa648699a05a1d173c3af65d6645740430f5f3aa68edbb1b016b30fde38",
+          "4": "6bcc5a7fcbb280f882311b202f532928b14f4e9be9f1cb2b695bc7ad8821663e",
+          "1200": "238ed63a2fa55bdd983678b0cbab9339d5420db9f37370f375524a8563da93a6"
+        }
+      },
+      "q": {
+        "output": "q-train-m-zero-s57-refine16",
+        "seed": 83,
+        "learning_rate": 5e-06,
+        "steps": 1200,
+        "parent": "checkpoints/p-train-m-zero-s57-local64-span_aux1/last.pt",
+        "parent_file_sha256": "aa6bfd8075f21521b21738efe8a0efc3ed430415daf2db79150e67c2ceba1bf9",
+        "checkpoint_sha256": "20a42df4e197865a0fb194d7c1faedc9cb003b54b5f78809e6e0087e9116ab56",
+        "full_input_sha256": "29221c06b129c3a8b9c5fa8d4790a29ccc18373b66cb97178d6580bda76eee80",
+        "model_tensor_sha256": "bf0ff0acae062b6f72a55802168b3c4d5f0b7c2affbee248556d4299a5e89ab0",
+        "initial_model_tensor_sha256": "519a2ca10c9c229cccc0c54f047ba9faf48907d3cdc8a453cce60ac93a7d6e45",
+        "manifest_sha256": "3ac77356577e85f023a96161280b565eef394bac59c271569e64715f32aa29a4",
+        "input_examples": {
+          "1": "9271a8d523421018834b64b82a55b5ddcc18fff97388dbe3e18f8064ed4c8a4e",
+          "4": "5bbde236fb4303e5c7f7cdfaca7839c1e7e4193da74d3d6f2d27b11bf7e7eb15",
+          "1200": "09aae31c7c7ac18f840eeae9bc021dcedaf9c9519f06dc7c7d555b29f0dc0c07"
+        }
+      },
+      "r": {
+        "output": "r-train-m-zero-s57-refine16",
+        "seed": 93,
+        "learning_rate": 5e-06,
+        "steps": 1200,
+        "parent": "checkpoints/q-train-m-zero-s57-refine16/last.pt",
+        "parent_file_sha256": "20a42df4e197865a0fb194d7c1faedc9cb003b54b5f78809e6e0087e9116ab56",
+        "checkpoint_sha256": "b70debc14af36f6f3953333f2121cb2cb23944a36dd101af9e16735ef0d6acea",
+        "full_input_sha256": "732f696e00afdb119570dd7eb906dd23879119a6ea5a1f5f7985376563aac8ed",
+        "model_tensor_sha256": "e92bbe990a3bd6d67c01aa594f7f3d1f88dcdb5f73b51c94acdcf4689abe7d0b",
+        "initial_model_tensor_sha256": "bf0ff0acae062b6f72a55802168b3c4d5f0b7c2affbee248556d4299a5e89ab0",
+        "manifest_sha256": "52b92f659d08a63986cd057233ea2e8463668964a016317b4ff99e3c8de89f42",
+        "input_examples": {
+          "1": "2e78f3d684d3f3461eba2d81cb39cecdab21c57d47f8a9e995ab1cd89701c5e1",
+          "4": "e671d4986456b2abfe8fff32e602298dfbf47de5ef90d005c41d01e70106e34e",
+          "1200": "c8c3b7609e15cddb4b4161eec1a53d687a6eb60a63fdff638d211172cf65f087"
+        }
+      }
+    }
+  },
+  "native_dense_reference": {
+    "initial": {
+      "label": "dense",
+      "checkpoint": "checkpoints/e-native-dense-relation-1200-s54/last.pt",
+      "sha256": "8d4025c271c92bf3c0cbd59cc5c3fd257b57b9e98a5ea43ccc2216db4886c720",
+      "bytes": 2384307807
+    },
+    "final": {
+      "label": "dense",
+      "checkpoint": "checkpoints/ag-dense-e-pqr/last.pt",
+      "sha256": "8e06be2625d50d430b379caa70c29dc304f2b17eb25979990ce518ba8fb887b0",
+      "bytes": 3007155738,
+      "launch_amendment_sha256": "9850feedfd38c0cda2c32f07fc4ae1be7592a783a79cb2fd8fcdecf0e21f4078"
+    },
+    "steps": 4800,
+    "continuation": [
+      {
+        "stage": "p",
+        "seed": 71,
+        "paired_summary": "results/p-train-e-neutral-local64-span_aux1/summary.json"
+      },
+      {
+        "stage": "q",
+        "seed": 81,
+        "paired_summary": "results/q-train-e-neutral-refine16/summary.json"
+      },
+      {
+        "stage": "r",
+        "seed": 91,
+        "paired_summary": "results/r-train-e-neutral-refine16/summary.json"
+      }
+    ],
+    "teacher": null,
+    "attention": "full causal attention"
+  }
+}
